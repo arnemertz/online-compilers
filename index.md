@@ -5,7 +5,7 @@ Online compilers can be useful tools to quickly compile a snippet of code withou
 The following list provides information about available online compilers and their most important features. Support for other languages than C++ is available on many of the listed websites but not covered here.
 Depending on the versions of the compilers used, they support different versions of the C++ standard. See [this page](http://en.cppreference.com/w/cpp/compiler_support) for more detailed feature lists. Since C++17 is not fully standardized yet, it is marked with an asterisk, where (most of) the expected C++17 features are available.
 
-Besides mere compilation, most online compilers also execute the compiled program. The possibilities to parametrize the compilation via compiler flags, to pass commandline/runtime parameters to the executed program and to provide input for standard input vary between the different compilers.
+Besides mere compilation, most online compilers also execute the compiled program. The possibilities to parametrize the compilation via compiler flags, to pass command line/runtime parameters to the executed program and to provide input for standard input vary between the different compilers.
 
 
 ## Wandbox
@@ -22,7 +22,7 @@ Besides the standard library, it features a few libraries including Boost (up to
 The snapshot versions of GCC and Clang that are provided make it possible to play with the latest C++17 features.
 
 
-## Godbolt Compiler Explorer
+## Compiler Explorer (Godbolt)
 
 | **URL**                | [http://godbolt.org](http://godbolt.org)
 | **Compilers**          | GCC 4.4.7 .. 8.0.0 (snapshot) <br/>  Clang 3.0 .. 5.0.0 (trunk) <br/>  MSVC 19/2017 (x86, x64) <br/>  icc 13, 16, 17 <br/>  zapcc 190308 <br/>  PowerPC gcc 4.8, PowerPC 64 6.3.0 <br/>  MSP430 gcc 4.5.3 .. 6.2.1 <br/>  MIPS gcc 5.4 (32/64 bit, el) <br/>  elcc 0.1.33, 0.1.34 <br/>  AVR gcc 4.5.4, 4.6.4 <br/>  ARM64 gcc 5.4 <br/>  ARM gcc 4.5.4 .. 5.4.1 <br/>  ARM CL 2017 RTW
@@ -31,7 +31,7 @@ The snapshot versions of GCC and Clang that are provided make it possible to pla
 | **Runtime parameters** | N/A
 | **Stdin**              | N/A
 
-Compiler Explorer is a compile-as-you-type IDE with a very unique feature as it presents the assembly produced by the compilers. The resulting assembler can be color-mapped to the originating C++ code. It supports the use of different sources and multiple compilers at the same time, so we can compare the assembly produced by different code and/or different compilers, optimization flags, etc. 
+Compiler Explorer is a compile-as-you-type IDE with a unique feature as it presents the assembly produced by the compilers. The resulting assembler can be color-mapped to the originating C++ code. It supports the use of different sources and multiple compilers at the same time, so we can compare the assembly produced by different code and/or different compilers, optimization flags, etc. 
 Compiler explorer can be found on [GitHub](https://github.com/mattgodbolt/compiler-explorer) and can be used locally.
 Currently, the compiled code can **not** be executed, but there is an [open GitHub issue](https://github.com/mattgodbolt/compiler-explorer/issues/429) for this feature.
 
@@ -45,8 +45,8 @@ Currently, the compiled code can **not** be executed, but there is an [open GitH
 | **Runtime parameters** | free text
 | **Stdin**              | via linux shell pipe
 
-Coliru provides an editor and a freely editable linux shell command line, which makes it relatively powerful. For example, you can compare the outputs of both Clang and GCC by issuing the commands for compilation and execution for both compilers. Editing of multiple files at once is not supported, but since code you share is saved in an archive you can use that to prepare multiple files (see the [FAQ](https://docs.google.com/document/d/18md3rLdgD9f5Wro3i7YYopJBFb_6MPCO8-0ihtxHoyM/edit) for an example). It is also possible to download e.g. a Gist via `curl` before the compilation.
-Coluri provides a public API, so it can, for example, be integrated into websites [cppreference.com](cppreference.com), which uses Coliru for its runnable examples.
+Coliru provides an editor and a freely editable Linux shell command line, which makes it relatively powerful. For example, you can compare the outputs of both Clang and GCC by issuing the commands for compilation and execution for both compilers. Editing of multiple files at once is not supported, but since the code you share is saved in an archive you can use that to prepare multiple files (see the [FAQ](https://docs.google.com/document/d/18md3rLdgD9f5Wro3i7YYopJBFb_6MPCO8-0ihtxHoyM/edit) for an example). It is also possible to download e.g. a Gist via `curl` before the compilation.
+Coliru provides a public API, so it can, for example, be integrated into websites [cppreference.com](cppreference.com), which uses Coliru for its runnable examples.
 
 
 ## Rextester
@@ -58,7 +58,7 @@ Coluri provides a public API, so it can, for example, be integrated into website
 | **Runtime parameters** | none
 | **Stdin**              | yes
 
-Rextester is a standard online IDE that allows to edit, compile, execute and share single C++ files. As a distinguishing feature it allows to create live editing sessions so that multiple people can edit the same source simultaneously and see each other's edits in real time.
+Rextester is a standard online IDE that allows to edit, compile, execute and share single C++ files. As a distinguishing feature, it allows creating live editing sessions so that multiple people can edit the same source simultaneously and see each other's edits in real time.
 
 
 ## Ideone
@@ -106,7 +106,7 @@ Another single file compilation IDE, but with the rare feature of interactive st
 | **Runtime parameters** | no
 | **Stdin**              | yes
 
-An online IDE with multiple files. The whole web application seems to be sluggish at times, I could not register to try out the features that require an account login like saving or uploading whole projects (broken link/unresponsive webapp). 
+An online IDE with multiple files. The whole web application seems to be sluggish at times, I could not register to try out the features that require an account login like saving or uploading whole projects (broken link/unresponsive web app). 
 
 
 ## Codepad
@@ -118,7 +118,7 @@ An online IDE with multiple files. The whole web application seems to be sluggis
 | **Runtime parameters** | no
 | **Stdin**              | no
 
-Codepad can be unintuitive - pasting new code at the**URL**of previously pasted code will return to the original code. Code will be compiled and executed as-is without any possibility to further parametrize it.
+Codepad can be unintuitive - pasting new code at the**URL**of previously pasted code will return to the original code. The code will be compiled and executed as-is without any possibility to further parametrize it.
 
 
 ## LoopPerfect C++ Fiddle
@@ -130,6 +130,6 @@ Codepad can be unintuitive - pasting new code at the**URL**of previously pasted 
 | **Runtime parameters** | N/A
 | **Stdin**              | N/A
 
-Claims to be an interactive C++ interpreter/terminal but seems to be broken, or the interface is so non-obvious that is should be considered broken.
+C++ Fiddle claims to be an interactive C++ interpreter/terminal but seems to be broken, or the interface is so non-obvious that is should be considered broken.
 
 
