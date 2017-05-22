@@ -12,18 +12,18 @@ Besides mere compilation, most online compilers also execute the compiled progra
 
 ## TL;DR 
 
-| **Name** | **URL** | # Compilers | Execution | **Distinguishing features** | Other Languages |
-|-----------------------------|--------------------------------------------------------------------------------------------------------------------|:-----------:|:---------:|-------------------------------------------------------------------------------------------------------------|:---------------:|
-| Wandbox | [http://melpon.org/wandbox](http://melpon.org/wandbox) | 35 | ✔️ | multiple files, very modern compilers (C++17) | ✔️ |
-| Compiler Explorer (Godbolt) | [http://godbolt.org](http://godbolt.org) | 50+ |  | compile to assembly as you type, on multiple compilers (C++17) <br/> no execution of compiled program (yet) | ✔️ |
-| Coliru | [http://coliru.stacked-crooked.com](http://coliru.stacked-crooked.com) | 2 | ✔️ | GCC & Clang (C++14-17), freely editable shell command line |  |
-| Rextester | [http://rextester.com/](http://rextester.com/) | 3 | ✔️ | GCC, Clang, MSVC (C++14), collaborative live editing features | ✔️ |
-| Ideone | [https://ideone.com/](https://ideone.com/) | 1 | ✔️ | GCC (C++14) | ✔️ |
-| Visual C++ Compiler Online | [http://webcompiler.cloudapp.net/](http://webcompiler.cloudapp.net/) | 1 | ✔️ | up-to-date MSVC 19/2017 (C++14-17) |  |
-| C++ Shell | [http://cpp.sh/](http://cpp.sh/) | 1 | ✔️ | GCC (C++11-14), interactive Stdin |  |
-| Tutorialspoint CodingGround | [https://www.tutorialspoint.com/compile_cpp11_online.php](https://www.tutorialspoint.com/compile_cpp11_online.php) | 1 | ✔️ | multiple files like proper IDE, GCC (C++11) <br/> but sluggish web app |  |
-| Codepad | [http://codepad.org/](http://codepad.org/) | 1 | ✔️ | GCC (C++03) | ✔️ |
-| LoopPerfect C++ Fiddle | [http://fiddle.jyt.io/](http://fiddle.jyt.io/) |  |  | interactive C++ interpreter/terminal, but currently broken |  |
+| **Name** | **Number Compilers** | **Execution** | **Distinguishing features** | **Other Languages** |
+|----------------------------------------------------------------------------------------|:--------------------:|:-------------:|-------------------------------------------------------------------------------------------------------------|:-------------------:|
+| [Wandbox](http://melpon.org/wandbox) | 35 | ✔️ | multiple files, very modern compilers (C++17) | ✔️ |
+| [Compiler Explorer (Godbolt)](http://godbolt.org) | 50+ |  | compile to assembly as you type, on multiple compilers (C++17) <br/> no execution of compiled program (yet) | ✔️ |
+| [Coliru](http://coliru.stacked-crooked.com) | 2 | ✔️ | GCC & Clang (C++14-17), freely editable shell command line |  |
+| [Rextester](http://rextester.com/) | 3 | ✔️ | GCC, Clang, MSVC (C++14), collaborative live editing features | ✔️ |
+| [Ideone](https://ideone.com/) | 1 | ✔️ | GCC (C++14) | ✔️ |
+| [Visual C++ Compiler Online](http://webcompiler.cloudapp.net/) | 1 | ✔️ | up-to-date MSVC 19/2017 (C++14-17) |  |
+| [C++ Shell](http://cpp.sh/) | 1 | ✔️ | GCC (C++11-14), interactive Stdin |  |
+| [Tutorialspoint CodingGround](https://www.tutorialspoint.com/compile_cpp11_online.php) | 1 | ✔️ | multiple files like proper IDE, GCC (C++11) <br/> but sluggish web app |  |
+| [Codepad](http://codepad.org/) | 1 | ✔️ | GCC (C++03) | ✔️ |
+| [LoopPerfect C++ Fiddle](http://fiddle.jyt.io/) |  |  | interactive C++ interpreter/terminal, but currently broken |  |
 
 ## Wandbox
 
