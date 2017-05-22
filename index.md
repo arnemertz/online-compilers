@@ -12,8 +12,8 @@ Besides mere compilation, most online compilers also execute the compiled progra
 
 ## TL;DR 
 
-| **Name** | **Number Compilers** | **Execution** | **Distinguishing features** | **Other Languages** |
-|----------------------------------------------------------------------------------------|:--------------------:|:-------------:|-------------------------------------------------------------------------------------------------------------|:-------------------:|
+| Name | Number Compilers | Execution | Distinguishing features | Other Languages |
+|----------------------------------------------------------------------------------------|:----------------:|:---------:|-------------------------------------------------------------------------------------------------------------|:---------------:|
 | [Wandbox](http://melpon.org/wandbox) | 35 | ✔️ | multiple files, very modern compilers (C++17) | ✔️ |
 | [Compiler Explorer (Godbolt)](http://godbolt.org) | 50+ |  | compile to assembly as you type, on multiple compilers (C++17) <br/> no execution of compiled program (yet) | ✔️ |
 | [Coliru](http://coliru.stacked-crooked.com) | 2 | ✔️ | GCC & Clang (C++14-17), freely editable shell command line |  |
