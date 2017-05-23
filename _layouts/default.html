@@ -61,10 +61,6 @@ window.onload = function () {makeAllSortable();};
           <li><a class="buttons github" href="{{ site.github.repository_url }}">View On GitHub</a></li>
         </ul>
 
-        {% if site.github.is_project_page %}
-          <p class="header">This project is maintained by <a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-
         {% if site.github.is_user_page %}
           <ul>
             <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
@@ -78,6 +74,8 @@ window.onload = function () {makeAllSortable();};
 
       <footer>
         <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+	<p><small>TL;DR table generated with <a href="http://www.tablesgenerator.com/markdown_tables#">Tables Generator</a>.</small></p>
+        <p><small>Badges vía <a href="https://shields.io/"><img src="https://img.shields.io/badge/Shields-IO-brightgreen.svg"></img></a>.</small></p>
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
