@@ -93,63 +93,57 @@ Coliru provides a public API, so it can, for example, be integrated into website
 Ideone is a standard online IDE that allows to edit, compile, execute and share single C++ files. 
 
 
-### Visual C++ Compiler Online
+### [Visual C++ Compiler Online](http://webcompiler.cloudapp.net/)
 
-| **URL**                | [http://webcompiler.cloudapp.net/](http://webcompiler.cloudapp.net/)
-| **Compilers**          | MSVC 19/2017 (x86)
-| **C++ Version**        | C++14
-| **Compiler flags**     | reduced set
-| **Runtime parameters** | yes
-| **Stdin**              | no
+![](https://img.shields.io/badge/MSVC-19/2017%20(x86)-brightgreen.svg)    
+![](https://img.shields.io/badge/C%2B%2B-14-blue.svg)  
+![](https://img.shields.io/badge/flags-reduced%20set-brightgreen.svg)
+![](https://img.shields.io/badge/runtime%20parameters-yes-brightgreen.svg)
+![](https://img.shields.io/badge/stdin-no-red.svg)  
 
-Microsoft's showcase for its most up-to-date compiler. It allows single file compilation, running the executable after compilation is optional.
+[Microsoft's showcase](http://webcompiler.cloudapp.net/) for its most up-to-date compiler. It allows single file compilation, running the executable after compilation is optional.
 
 
-### C++ Shell
+### [C++ Shell](http://cpp.sh/)
 
-| **URL**                | [http://cpp.sh/](http://cpp.sh/)
-| **Compilers**          | GCC 4.9.2
-| **C++ Version**        | C++11, partially C++14
-| **Compiler flags**     | reduced set
-| **Runtime parameters** | no
-| **Stdin**              | static or interactive
+![](https://img.shields.io/badge/GCC-4.9.1-brightgreen.svg)  
+![](https://img.shields.io/badge/C%2B%2B-11/~14-blue.svg)  
+![](https://img.shields.io/badge/flags-reduced%20set-brightgreen.svg)
+![](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
+![](https://img.shields.io/badge/stdin-static|interactive-brightgreen.svg)    
+![](https://img.shields.io/badge/interactive-stdin-brightgreen.svg)
 
 Another single file compilation IDE, but with the rare feature of interactive stdin input. The web application seems to hang sometimes during compilation or execution. 
 
 
-### Tutorialspoint CodingGround
+### [Tutorialspoint CodingGround](https://www.tutorialspoint.com/compile_cpp11_online.php)
 
-| **URL**                | [https://www.tutorialspoint.com/compile_cpp11_online.php](https://www.tutorialspoint.com/compile_cpp11_online.php)
-| **Compilers**          | GCC 4.8.5
-| **C++ Version**        | C++11
-| **Compiler flags**     | yes
-| **Runtime parameters** | no
-| **Stdin**              | yes
+![](https://img.shields.io/badge/GCC-4.8.5-brightgreen.svg)  
+![](https://img.shields.io/badge/C%2B%2B-11-blue.svg)  
+![](https://img.shields.io/badge/flags-yes-brightgreen.svg)
+![](https://img.shields.io/badge/runtime%20parameters-yes-brightgreen.svg)
+![](https://img.shields.io/badge/stdin-yes-brightgreen.svg)  
+![](https://img.shields.io/badge/multi%20file-yes-brightgreen.svg)
+
 
 An online IDE with multiple files. The whole web application seems to be sluggish at times, I could not register to try out the features that require an account login like saving or uploading whole projects (broken link/unresponsive web app). 
 
 
-### Codepad
+### [Codepad](http://codepad.org/)
 
-| **URL**                | [http://codepad.org/](http://codepad.org/)
-| **Compilers**          | GCC 4.1.2
-| **C++ Version**        | C++03
-| **Compiler flags**     | fixed
-| **Runtime parameters** | no
-| **Stdin**              | no
+![](https://img.shields.io/badge/GCC-4.1.2-brightgreen.svg)  
+![](https://img.shields.io/badge/C%2B%2B-03-blue.svg)  
+![](https://img.shields.io/badge/flags-fixed-brightgreen.svg)
+![](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
+![](https://img.shields.io/badge/stdin-no-red.svg)
 
-Codepad can be unintuitive - pasting new code at the URL of previously pasted code will return to the original code. The code will be compiled and executed as-is without any possibility to further parametrize it.
+[Codepad](http://codepad.org/) can be unintuitive - pasting new code at the URL of previously pasted code will return to the original code. The code will be compiled and executed as-is without any possibility to further parametrize it.
 
 
-### LoopPerfect C++ Fiddle
+### [LoopPerfect C++ Fiddle](http://fiddle.jyt.io/)
 
-| **URL**                | [http://fiddle.jyt.io/](http://fiddle.jyt.io/)
-| **Compilers**          | unknown
-| **C++ Version**        | unknown
-| **Compiler flags**     | N/A
-| **Runtime parameters** | N/A
-| **Stdin**              | N/A
+![](https://img.shields.io/badge/status-broken-lightgrey.svg)
 
-C++ Fiddle claims to be an interactive C++ interpreter/terminal but seems to be broken, or the interface is so non-obvious that is should be considered broken.
+[C++ Fiddle](http://fiddle.jyt.io/) claims to be an interactive C++ interpreter/terminal but seems to be broken, or the interface is so non-obvious that is should be considered broken.
 
 
