@@ -27,44 +27,52 @@ Besides mere compilation, most online compilers also execute the compiled progra
 
 ## The Compilers 
 
-### Wandbox
+### [Wandbox](http://melpon.org/wandbox)
+![GCC 4.4.7 .. 8.0.0](https://img.shields.io/badge/GCC-4.4.7%2D8.0.0%20%28HEAD%29-brightgreen.svg)
+![Clang 3.1 .. 5.0.0](https://img.shields.io/badge/Clang-3.1%2D5.0.0%20%28HEAD%29-brightgreen.svg)
+![zapcc 1.0.1](https://img.shields.io/badge/zapcc-1.0.1-brightgreen.svg)  
+![C++17](https://img.shields.io/badge/C++-17-blue.svg)  
+![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)
+![Runtime parameters: yes](https://img.shields.io/badge/runtime%20parameters-yes-brightgreen.svg)
+![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)
 
-| **URL**                | [http://melpon.org/wandbox](http://melpon.org/wandbox)
-| **Compilers**          | GCC 4.4.7 .. 8.0.0 (HEAD)  <br/>  Clang 3.1 .. 5.0.0 (HEAD)  <br/>  zapcc 1.0.1
-| **C++ version**        | C++17*
-| **Compiler flags**     | dropdown selection + free text
-| **Runtime parameters** | yes
-| **Stdin**              | yes
- 
-Wandbox provides pretty much all of the functionality you'd want from a typical online compiler, including support for multiple files and different editor keybindings. 
+[Wandbox](http://melpon.org/wandbox) provides pretty much all of the functionality you'd want from a typical online compiler, including support for multiple files and different editor keybindings. 
 Besides the standard library, it features a few libraries including Boost (up to 1.64), Sprout and MessagePack. The compiled programs run in a sandbox environment that allows file I/O. 
 The snapshot versions of GCC and Clang that are provided make it possible to play with the latest C++17 features.
 
 
-### Compiler Explorer (Godbolt)
+### [Compiler Explorer (Godbolt)](http://godbolt.org)
+![GCC 4.4.7 .. 8.0.0](https://img.shields.io/badge/GCC-4.4.7%2D8.0.0%20%28snapshot%29-brightgreen.svg)
+![Clang 3.0 .. 5.0.0](https://img.shields.io/badge/Clang-3.0%2D5.0.0%20%28trunk%29-brightgreen.svg)
+![MSVC 19/2017 (x86, x64)](https://img.shields.io/badge/MSVC-19%2F2017%20%28x86%2C%20x64%29-brightgreen.svg)
+![icc 13, 16, 17](https://img.shields.io/badge/icc-13%2F16%2F17-brightgreen.svg)
+![zapcc 190308](https://img.shields.io/badge/zapcc-190308-brightgreen.svg)
+![PowerPC gcc 4.8](https://img.shields.io/badge/PowerPC%20gcc-4.8-brightgreen.svg)
+![PowerPC 64 6.3.0](https://img.shields.io/badge/PowerPC%2064-6.3.0-brightgreen.svg)
+![MSP430 gcc 4.5.3 .. 6.2.1](https://img.shields.io/badge/MSP430%20gcc-4.5.3%2D6.2.1-brightgreen.svg)
+![MIPS gcc 5.4 (32/64 bit, el)](https://img.shields.io/badge/MIPS%20gcc-5.4%20%2832%2F64%20bit%2C%20el%29-brightgreen.svg)
+![elcc 0.1.33, 0.1.34](https://img.shields.io/badge/elcc-0.1.33%2F0.1.34-brightgreen.svg)
+![AVR gcc 4.5.4, 4.6.4](https://img.shields.io/badge/AVR%20gcc-4.5.4%2F4.6.4-brightgreen.svg)
+![ARM64 gcc 5.4](https://img.shields.io/badge/ARM64%20gcc-5.4-brightgreen.svg)
+![ARM gcc 4.5.4 .. 5.4.1](https://img.shields.io/badge/ARM%20gcc-4.5.4%2D5.4.1-brightgreen.svg)
+![ARM CL 2017 RTW](https://img.shields.io/badge/ARM%20CL-2017%20RTW-brightgreen.svg)  
+![C++17](https://img.shields.io/badge/C++-17-blue.svg)  
+![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)
 
-| **URL**                | [http://godbolt.org](http://godbolt.org)
-| **Compilers**          | GCC 4.4.7 .. 8.0.0 (snapshot) <br/>  Clang 3.0 .. 5.0.0 (trunk) <br/>  MSVC 19/2017 (x86, x64) <br/>  icc 13, 16, 17 <br/>  zapcc 190308 <br/>  PowerPC gcc 4.8, PowerPC 64 6.3.0 <br/>  MSP430 gcc 4.5.3 .. 6.2.1 <br/>  MIPS gcc 5.4 (32/64 bit, el) <br/>  elcc 0.1.33, 0.1.34 <br/>  AVR gcc 4.5.4, 4.6.4 <br/>  ARM64 gcc 5.4 <br/>  ARM gcc 4.5.4 .. 5.4.1 <br/>  ARM CL 2017 RTW
-| **C++ Version**        | C++17*
-| **Compiler flags**     | free text
-| **Runtime parameters** | N/A
-| **Stdin**              | N/A
-
-Compiler Explorer is a compile-as-you-type IDE with a unique feature as it presents the assembly produced by the compilers. The resulting assembler can be color-mapped to the originating C++ code. It supports the use of different sources and multiple compilers at the same time, so we can compare the assembly produced by different code and/or different compilers, optimization flags, etc. 
+[Compiler Explorer](http://godbolt.org) is a compile-as-you-type IDE with a unique feature as it presents the assembly produced by the compilers. The resulting assembler can be color-mapped to the originating C++ code. It supports the use of different sources and multiple compilers at the same time, so we can compare the assembly produced by different code and/or different compilers, optimization flags, etc. 
 Compiler explorer can be found on [GitHub](https://github.com/mattgodbolt/compiler-explorer) and can be used locally.
 Currently, the compiled code can **not** be executed, but there is an [open GitHub issue](https://github.com/mattgodbolt/compiler-explorer/issues/429) for this feature.
 
 
-### Coliru
+### [Coliru](http://coliru.stacked-crooked.com)
+![GCC 4.6 .. 7.1](https://img.shields.io/badge/GCC-4.6%2D7.1-brightgreen.svg)
+![Clang 3.8](https://img.shields.io/badge/Clang-3.8-brightgreen.svg)  
+![C++17](https://img.shields.io/badge/C++-17-blue.svg)  
+![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)
+![Runtime parameters: yes](https://img.shields.io/badge/runtime%20parameters-yes-brightgreen.svg)
+![Stdin: yes](https://img.shields.io/badge/stdin-shell%2Bpipe-brightgreen.svg)
 
-| **URL**                | [http://coliru.stacked-crooked.com](http://coliru.stacked-crooked.com)
-| **Compilers**          | GCC 4.6 .. 7.1 <br/>  Clang 3.8 
-| **C++ Version**        | C++17*
-| **Compiler flags**     | free text
-| **Runtime parameters** | free text
-| **Stdin**              | via linux shell pipe
-
-Coliru provides an editor and a freely editable Linux shell command line, which makes it relatively powerful. For example, you can compare the outputs of both Clang and GCC by issuing the commands for compilation and execution for both compilers. Editing of multiple files at once is not supported, but since the code you share is saved in an archive you can use that to prepare multiple files (see the [FAQ](https://docs.google.com/document/d/18md3rLdgD9f5Wro3i7YYopJBFb_6MPCO8-0ihtxHoyM/edit) for an example). It is also possible to download e.g. a Gist via `curl` before the compilation.
+[Coliru](http://coliru.stacked-crooked.com) provides an editor and a freely editable Linux shell command line, which makes it relatively powerful. For example, you can compare the outputs of both Clang and GCC by issuing the commands for compilation and execution for both compilers. Editing of multiple files at once is not supported, but since the code you share is saved in an archive you can use that to prepare multiple files (see the [FAQ](https://docs.google.com/document/d/18md3rLdgD9f5Wro3i7YYopJBFb_6MPCO8-0ihtxHoyM/edit) for an example). It is also possible to download e.g. a Gist via `curl` before the compilation.
 Coliru provides a public API, so it can, for example, be integrated into websites [cppreference.com](cppreference.com), which uses Coliru for its runnable examples.
 
 
@@ -73,7 +81,7 @@ Coliru provides a public API, so it can, for example, be integrated into website
 ![GCC 5.4.0](https://img.shields.io/badge/GCC-5.4.0-brightgreen.svg)
 ![Clang 3.8.0](https://img.shields.io/badge/Clang-3.8.0-brightgreen.svg) 
 ![MSVC 19/2017](https://img.shields.io/badge/MSVC-19%2F2017-brightgreen.svg)  
-![C++14](https://img.shields.io/badge/C++-03%2F11%2F14-blue.svg)  
+![C++14](https://img.shields.io/badge/C++-14-blue.svg)  
 ![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)
 ![Runtime parameters: no](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
 ![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)
@@ -81,16 +89,14 @@ Coliru provides a public API, so it can, for example, be integrated into website
 [Rextester](http://rextester.com/) is a standard online IDE that allows to edit, compile, execute and share single C++ files. As a distinguishing feature, it allows creating live editing sessions so that multiple people can edit the same source simultaneously and see each other's edits in real time.
 
 
-### Ideone
+### [Ideone](https://ideone.com/)
+![GCC 6.3.0](https://img.shields.io/badge/GCC-6.3.0-brightgreen.svg)  
+![C++14](https://img.shields.io/badge/C++-14-blue.svg)  
+![Compiler flags: free text](https://img.shields.io/badge/flags-fix-red.svg)
+![Runtime parameters: no](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
+![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)
 
-| **URL**                | [https://ideone.com/](https://ideone.com/)
-| **Compilers**          | GCC 6.3.0
-| **C++ Version**        | C++14
-| **Compiler flags**     | fixed
-| **Runtime parameters** | none
-| **Stdin**              | yes
-
-Ideone is a standard online IDE that allows to edit, compile, execute and share single C++ files. 
+[Ideone](https://ideone.com/) is a standard online IDE that allows to edit, compile, execute and share single C++ files. 
 
 
 ### Visual C++ Compiler Online
