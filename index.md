@@ -68,16 +68,17 @@ Coliru provides an editor and a freely editable Linux shell command line, which 
 Coliru provides a public API, so it can, for example, be integrated into websites [cppreference.com](cppreference.com), which uses Coliru for its runnable examples.
 
 
-### Rextester
+### [Rextester](http://rextester.com/)
 
-| **URL**                | [http://rextester.com/](http://rextester.com/)
-| **Compilers**          | GCC 5.4.0 <br/>  Clang 3.8.0 <br/>  MSVC 19/2017
-| **C++ Version**        | C++14
-| **Compiler flags**     | free text
-| **Runtime parameters** | none
-| **Stdin**              | yes
+![GCC 5.4.0](https://img.shields.io/badge/GCC-5.4.0-brightgreen.svg)
+![Clang 3.8.0](https://img.shields.io/badge/Clang-3.8.0-brightgreen.svg) 
+![MSVC 19/2017](https://img.shields.io/badge/MSVC-19%2F2017-brightgreen.svg)  
+![C++14](https://img.shields.io/badge/C++-03%2F11%2F14-blue.svg)  
+![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)
+![Runtime parameters: no](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
+![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)
 
-Rextester is a standard online IDE that allows to edit, compile, execute and share single C++ files. As a distinguishing feature, it allows creating live editing sessions so that multiple people can edit the same source simultaneously and see each other's edits in real time.
+[Rextester](http://rextester.com/) is a standard online IDE that allows to edit, compile, execute and share single C++ files. As a distinguishing feature, it allows creating live editing sessions so that multiple people can edit the same source simultaneously and see each other's edits in real time.
 
 
 ### Ideone
