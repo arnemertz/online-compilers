@@ -28,13 +28,15 @@ Besides mere compilation, most online compilers also execute the compiled progra
 ## The Compilers 
 
 ### [Wandbox](http://melpon.org/wandbox)
+![C++17](https://img.shields.io/badge/C++-17-blue.svg)
 ![GCC 4.4.7 .. 8.0.0](https://img.shields.io/badge/GCC-4.4.7%2D8.0.0%20%28HEAD%29-brightgreen.svg)
 ![Clang 3.1 .. 5.0.0](https://img.shields.io/badge/Clang-3.1%2D5.0.0%20%28HEAD%29-brightgreen.svg)
 ![zapcc 1.0.1](https://img.shields.io/badge/zapcc-1.0.1-brightgreen.svg)  
-![C++17](https://img.shields.io/badge/C++-17-blue.svg)  
 ![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)
 ![Runtime parameters: yes](https://img.shields.io/badge/runtime%20parameters-yes-brightgreen.svg)
-![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)
+![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)  
+![](https://img.shields.io/badge/multi%20file-yes-ff69b4.svg)
+
 
 [Wandbox](http://melpon.org/wandbox) provides pretty much all of the functionality you'd want from a typical online compiler, including support for multiple files and different editor keybindings. 
 Besides the standard library, it features a few libraries including Boost (up to 1.64), Sprout and MessagePack. The compiled programs run in a sandbox environment that allows file I/O. 
@@ -42,6 +44,7 @@ The snapshot versions of GCC and Clang that are provided make it possible to pla
 
 
 ### [Compiler Explorer (Godbolt)](http://godbolt.org)
+![C++17](https://img.shields.io/badge/C++-17-blue.svg)
 ![GCC 4.4.7 .. 8.0.0](https://img.shields.io/badge/GCC-4.4.7%2D8.0.0%20%28snapshot%29-brightgreen.svg)
 ![Clang 3.0 .. 5.0.0](https://img.shields.io/badge/Clang-3.0%2D5.0.0%20%28trunk%29-brightgreen.svg)
 ![MSVC 19/2017 (x86, x64)](https://img.shields.io/badge/MSVC-19%2F2017%20%28x86%2C%20x64%29-brightgreen.svg)
@@ -56,8 +59,9 @@ The snapshot versions of GCC and Clang that are provided make it possible to pla
 ![ARM64 gcc 5.4](https://img.shields.io/badge/ARM64%20gcc-5.4-brightgreen.svg)
 ![ARM gcc 4.5.4 .. 5.4.1](https://img.shields.io/badge/ARM%20gcc-4.5.4%2D5.4.1-brightgreen.svg)
 ![ARM CL 2017 RTW](https://img.shields.io/badge/ARM%20CL-2017%20RTW-brightgreen.svg)  
-![C++17](https://img.shields.io/badge/C++-17-blue.svg)  
-![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)
+![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)  
+![](https://img.shields.io/badge/compare%20assembler-yes-ff69b4.svg)
+
 
 [Compiler Explorer](http://godbolt.org) is a compile-as-you-type IDE with a unique feature as it presents the assembly produced by the compilers. The resulting assembler can be color-mapped to the originating C++ code. It supports the use of different sources and multiple compilers at the same time, so we can compare the assembly produced by different code and/or different compilers, optimization flags, etc. 
 Compiler explorer can be found on [GitHub](https://github.com/mattgodbolt/compiler-explorer) and can be used locally.
@@ -65,9 +69,9 @@ Currently, the compiled code can **not** be executed, but there is an [open GitH
 
 
 ### [Coliru](http://coliru.stacked-crooked.com)
+![C++17](https://img.shields.io/badge/C++-17-blue.svg)
 ![GCC 4.6 .. 7.1](https://img.shields.io/badge/GCC-4.6%2D7.1-brightgreen.svg)
 ![Clang 3.8](https://img.shields.io/badge/Clang-3.8-brightgreen.svg)  
-![C++17](https://img.shields.io/badge/C++-17-blue.svg)  
 ![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)
 ![Runtime parameters: yes](https://img.shields.io/badge/runtime%20parameters-yes-brightgreen.svg)
 ![Stdin: yes](https://img.shields.io/badge/stdin-shell%2Bpipe-brightgreen.svg)
@@ -78,10 +82,10 @@ Coliru provides a public API, so it can, for example, be integrated into website
 
 ### [Rextester](http://rextester.com/)
 
+![C++14](https://img.shields.io/badge/C++-14-blue.svg)
 ![GCC 5.4.0](https://img.shields.io/badge/GCC-5.4.0-brightgreen.svg)
 ![Clang 3.8.0](https://img.shields.io/badge/Clang-3.8.0-brightgreen.svg) 
 ![MSVC 19/2017](https://img.shields.io/badge/MSVC-19%2F2017-brightgreen.svg)  
-![C++14](https://img.shields.io/badge/C++-14-blue.svg)  
 ![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)
 ![Runtime parameters: no](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
 ![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)
@@ -90,8 +94,8 @@ Coliru provides a public API, so it can, for example, be integrated into website
 
 
 ### [Ideone](https://ideone.com/)
+![C++14](https://img.shields.io/badge/C++-14-blue.svg)
 ![GCC 6.3.0](https://img.shields.io/badge/GCC-6.3.0-brightgreen.svg)  
-![C++14](https://img.shields.io/badge/C++-14-blue.svg)  
 ![Compiler flags: free text](https://img.shields.io/badge/flags-fix-red.svg)
 ![Runtime parameters: no](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
 ![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)
@@ -101,8 +105,8 @@ Coliru provides a public API, so it can, for example, be integrated into website
 
 ### [Visual C++ Compiler Online](http://webcompiler.cloudapp.net/)
 
-![](https://img.shields.io/badge/MSVC-19/2017%20(x86)-brightgreen.svg)    
-![](https://img.shields.io/badge/C%2B%2B-14-blue.svg)  
+![](https://img.shields.io/badge/C%2B%2B-14-blue.svg)
+![](https://img.shields.io/badge/MSVC-19/2017%20(x86)-brightgreen.svg)  
 ![](https://img.shields.io/badge/flags-reduced%20set-brightgreen.svg)
 ![](https://img.shields.io/badge/runtime%20parameters-yes-brightgreen.svg)
 ![](https://img.shields.io/badge/stdin-no-red.svg)  
@@ -112,24 +116,24 @@ Coliru provides a public API, so it can, for example, be integrated into website
 
 ### [C++ Shell](http://cpp.sh/)
 
+![](https://img.shields.io/badge/C%2B%2B-11/~14-blue.svg)
 ![](https://img.shields.io/badge/GCC-4.9.1-brightgreen.svg)  
-![](https://img.shields.io/badge/C%2B%2B-11/~14-blue.svg)  
 ![](https://img.shields.io/badge/flags-reduced%20set-brightgreen.svg)
 ![](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
-![](https://img.shields.io/badge/stdin-static|interactive-brightgreen.svg)    
-![](https://img.shields.io/badge/interactive-stdin-brightgreen.svg)
+![](https://img.shields.io/badge/stdin-static|interactive-brightgreen.svg)  
+![](https://img.shields.io/badge/interactive-stdin-ff69b4.svg)
 
 Another single file compilation IDE, but with the rare feature of interactive stdin input. The web application seems to hang sometimes during compilation or execution. 
 
 
 ### [Tutorialspoint CodingGround](https://www.tutorialspoint.com/compile_cpp11_online.php)
 
+![](https://img.shields.io/badge/C%2B%2B-11-blue.svg)
 ![](https://img.shields.io/badge/GCC-4.8.5-brightgreen.svg)  
-![](https://img.shields.io/badge/C%2B%2B-11-blue.svg)  
 ![](https://img.shields.io/badge/flags-yes-brightgreen.svg)
 ![](https://img.shields.io/badge/runtime%20parameters-yes-brightgreen.svg)
 ![](https://img.shields.io/badge/stdin-yes-brightgreen.svg)  
-![](https://img.shields.io/badge/multi%20file-yes-brightgreen.svg)
+![](https://img.shields.io/badge/multi%20file-yes-ff69b4.svg)
 
 
 An online IDE with multiple files. The whole web application seems to be sluggish at times, I could not register to try out the features that require an account login like saving or uploading whole projects (broken link/unresponsive web app). 
@@ -137,9 +141,9 @@ An online IDE with multiple files. The whole web application seems to be sluggis
 
 ### [Codepad](http://codepad.org/)
 
+![](https://img.shields.io/badge/C%2B%2B-03-blue.svg)
 ![](https://img.shields.io/badge/GCC-4.1.2-brightgreen.svg)  
-![](https://img.shields.io/badge/C%2B%2B-03-blue.svg)  
-![](https://img.shields.io/badge/flags-fixed-brightgreen.svg)
+![](https://img.shields.io/badge/flags-fix-red.svg)
 ![](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
 ![](https://img.shields.io/badge/stdin-no-red.svg)
 
