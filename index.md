@@ -96,7 +96,7 @@ Coliru provides a public API, so it can, for example, be integrated into website
 ### [Ideone](https://ideone.com/)
 ![C++14](https://img.shields.io/badge/C++-14-blue.svg)
 ![GCC 6.3.0](https://img.shields.io/badge/GCC-6.3.0-brightgreen.svg)  
-![Compiler flags: free text](https://img.shields.io/badge/flags-fix-red.svg)
+![Compiler flags: free text](https://img.shields.io/badge/flags-predefined-red.svg)
 ![Runtime parameters: no](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
 ![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)
 
@@ -143,7 +143,7 @@ An online IDE with multiple files. The whole web application seems to be sluggis
 
 ![](https://img.shields.io/badge/C%2B%2B-03-blue.svg)
 ![](https://img.shields.io/badge/GCC-4.1.2-brightgreen.svg)  
-![](https://img.shields.io/badge/flags-fix-red.svg)
+![](https://img.shields.io/badge/flags-predefined-red.svg)
 ![](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
 ![](https://img.shields.io/badge/stdin-no-red.svg)
 
