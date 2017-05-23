@@ -36,7 +36,8 @@ Besides mere compilation, most online compilers also execute the compiled progra
 ![Runtime parameters: yes](https://img.shields.io/badge/runtime%20parameters-yes-brightgreen.svg)
 ![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)  
 ![](https://img.shields.io/badge/multi%20file-yes-ff69b4.svg)
-
+![](https://img.shields.io/badge/libraries-Boost,Sprout,MessagePack-ff69b4.svg)
+![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
 
 [Wandbox](http://melpon.org/wandbox) provides pretty much all of the functionality you'd want from a typical online compiler, including support for multiple files and different editor keybindings. 
 Besides the standard library, it features a few libraries including Boost (up to 1.64), Sprout and MessagePack. The compiled programs run in a sandbox environment that allows file I/O. 
@@ -59,9 +60,13 @@ The snapshot versions of GCC and Clang that are provided make it possible to pla
 ![ARM64 gcc 5.4](https://img.shields.io/badge/ARM64%20gcc-5.4-008080.svg)
 ![ARM gcc 4.5.4 .. 5.4.1](https://img.shields.io/badge/ARM%20gcc-4.5.4--5.4.1-008080.svg)
 ![ARM CL 2017 RTW](https://img.shields.io/badge/ARM%20CL-2017%20RTW-008080.svg)  
-![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)  
-![](https://img.shields.io/badge/compare%20assembler-yes-ff69b4.svg)
-
+![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)
+![](https://img.shields.io/badge/assembly-yes-brightgreen.svg)
+![](https://img.shields.io/badge/execution-no-red.svg)    
+![](https://img.shields.io/badge/interactive-compilation-ff69b4.svg)
+![](https://img.shields.io/badge/diff%20assembler-yes-ff69b4.svg)
+![](https://img.shields.io/badge/include-github-ff69b4.svg)
+![](https://img.shields.io/badge/sharing-link%20|%20embed-ff69b4.svg)
 
 [Compiler Explorer](http://godbolt.org) is a compile-as-you-type IDE with a unique feature as it presents the assembly produced by the compilers. The resulting assembler can be color-mapped to the originating C++ code. It supports the use of different sources and multiple compilers at the same time, so we can compare the assembly produced by different code and/or different compilers, optimization flags, etc. 
 Compiler explorer can be found on [GitHub](https://github.com/mattgodbolt/compiler-explorer) and can be used locally.
@@ -74,7 +79,8 @@ Currently, the compiled code can **not** be executed, but there is an [open GitH
 ![Clang 3.8](https://img.shields.io/badge/Clang-3.8-008080.svg)  
 ![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)
 ![Runtime parameters: yes](https://img.shields.io/badge/runtime%20parameters-yes-brightgreen.svg)
-![Stdin: yes](https://img.shields.io/badge/stdin-shell%2Bpipe-brightgreen.svg)
+![Stdin: yes](https://img.shields.io/badge/stdin-shell%2Bpipe-brightgreen.svg)  
+![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
 
 [Coliru](http://coliru.stacked-crooked.com) provides an editor and a freely editable Linux shell command line, which makes it relatively powerful. For example, you can compare the outputs of both Clang and GCC by issuing the commands for compilation and execution for both compilers. Editing of multiple files at once is not supported, but since the code you share is saved in an archive you can use that to prepare multiple files (see the [FAQ](https://docs.google.com/document/d/18md3rLdgD9f5Wro3i7YYopJBFb_6MPCO8-0ihtxHoyM/edit) for an example). It is also possible to download e.g. a Gist via `curl` before the compilation.
 Coliru provides a public API, so it can, for example, be integrated into websites [cppreference.com](cppreference.com), which uses Coliru for its runnable examples.
@@ -88,7 +94,10 @@ Coliru provides a public API, so it can, for example, be integrated into website
 ![MSVC 19/2017](https://img.shields.io/badge/MSVC-19%2F2017-008080.svg)  
 ![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)
 ![Runtime parameters: no](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
-![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)
+![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)    
+![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
+![](https://img.shields.io/badge/interactive-live_editing-ff69b4.svg)
+
 
 [Rextester](http://rextester.com/) is a standard online IDE that allows to edit, compile, execute and share single C++ files. As a distinguishing feature, it allows creating live editing sessions so that multiple people can edit the same source simultaneously and see each other's edits in real time.
 
@@ -98,7 +107,9 @@ Coliru provides a public API, so it can, for example, be integrated into website
 ![GCC 6.3.0](https://img.shields.io/badge/GCC-6.3.0-008080.svg)  
 ![Compiler flags: free text](https://img.shields.io/badge/flags-predefined-red.svg)
 ![Runtime parameters: no](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
-![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)
+![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)  
+![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
+
 
 [Ideone](https://ideone.com/) is a standard online IDE that allows to edit, compile, execute and share single C++ files. 
 
@@ -121,6 +132,7 @@ Coliru provides a public API, so it can, for example, be integrated into website
 ![](https://img.shields.io/badge/flags-reduced%20set-yellowgreen.svg)
 ![](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
 ![](https://img.shields.io/badge/stdin-static|interactive-brightgreen.svg)  
+![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
 ![](https://img.shields.io/badge/interactive-stdin-ff69b4.svg)
 
 Another single file compilation IDE, but with the rare feature of interactive stdin input. The web application seems to hang sometimes during compilation or execution. 
@@ -145,7 +157,8 @@ An online IDE with multiple files. The whole web application seems to be sluggis
 ![](https://img.shields.io/badge/GCC-4.1.2-008080.svg)  
 ![](https://img.shields.io/badge/flags-predefined-red.svg)
 ![](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
-![](https://img.shields.io/badge/stdin-no-red.svg)
+![](https://img.shields.io/badge/stdin-no-red.svg)  
+![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
 
 [Codepad](http://codepad.org/) can be unintuitive - pasting new code at the URL of previously pasted code will return to the original code. The code will be compiled and executed as-is without any possibility to further parametrize it.
 
