@@ -1,4 +1,4 @@
-# List of online C++ compilers
+# List of Online C++ Compilers
 
 Online compilers can be useful tools to quickly compile a snippet of code without having to install a proper compiler on our computer. They can be especially useful to play with the newest language features, to share code snippets online or to compare different compilers.
 
@@ -15,7 +15,7 @@ Besides mere compilation, most online compilers also execute the compiled progra
 | Name | Number Compilers | C++ version | Execution | Distinguishing features | Other Languages |
 |------|:----------------:|:-----------:|:---------:|-------------------------|:---------------:|
 | [Wandbox](http://melpon.org/wandbox) | 35 | C++17 | ✔️ | multiple files, very modern compilers | ✔️ |
-| [Compiler Explorer (Godbolt)](http://godbolt.org) | 50+ | C++17 |  | compile to assembly as you type, on multiple compilers | ✔️ |
+| [Compiler Explorer (Godbolt)](http://godbolt.org) | 60+ | C++17 |  | compile to assembly as you type, on multiple compilers | ✔️ |
 | [Coliru](http://coliru.stacked-crooked.com) | 2 | C++17 | ✔️ | GCC & Clang, freely editable shell command line |  |
 | [Rextester](http://rextester.com/) | 3 | C++14 | ✔️ | GCC, Clang, MSVC, collaborative live editing features | ✔️ |
 | [Ideone](https://ideone.com/) | 1 | C++14 | ✔️ | GCC | ✔️ |
@@ -132,7 +132,7 @@ Coliru provides a public API, so it can, for example, be integrated into website
 ![](https://img.shields.io/badge/GCC-4.9.1-008080.svg)  
 ![](https://img.shields.io/badge/flags-reduced%20set-yellowgreen.svg)
 ![](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
-![](https://img.shields.io/badge/stdin-static|interactive-brightgreen.svg)  
+![](https://img.shields.io/badge/stdin-static%20|%20interactive-brightgreen.svg)  
 ![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
 ![](https://img.shields.io/badge/interactive-stdin-ff69b4.svg)
 
@@ -145,8 +145,8 @@ Another single file compilation IDE, but with the rare feature of interactive st
 ![](https://img.shields.io/badge/GCC-7.1.0-008080.svg)  
 ![](https://img.shields.io/badge/flags-predefined-red.svg)
 ![](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
-![](https://img.shields.io/badge/stdin-static|interactive-brightgreen.svg)  
-![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
+![](https://img.shields.io/badge/stdin-static%20|%20interactive-brightgreen.svg)  
+![](https://img.shields.io/badge/sharing-link%20|%20embed-ff69b4.svg)
 ![](https://img.shields.io/badge/save%20session-with%20login-ff69b4.svg)
 ![](https://img.shields.io/badge/interactive-stdin-ff69b4.svg)
 
