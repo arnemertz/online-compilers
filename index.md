@@ -21,6 +21,7 @@ Besides mere compilation, most online compilers also execute the compiled progra
 | [Ideone](https://ideone.com/) | 1 | C++14 | ✔️ | GCC | ✔️ |
 | [Visual C++ Compiler Online](http://webcompiler.cloudapp.net/) | 1 | C++14-17 | ✔️ | up-to-date MSVC 19/2017 |  |
 | [C++ Shell](http://cpp.sh/) | 1 | C++11-14 | ✔️ | GCC, interactive Stdin |  |
+| [repl.it](https://repl.it/languages/cpp11) | 1 | C++17 | ✔️ | GCC, interactive Stdin | ✔️ |
 | [Tutorialspoint CodingGround](https://www.tutorialspoint.com/compile_cpp11_online.php) | 1 | C++11 | ✔️ | multiple files like proper IDE, GCC <br/> but sluggish web app |  |
 | [Codepad](http://codepad.org/) | 1 | C++03 | ✔️ | GCC | ✔️ |
 | [LoopPerfect C++ Fiddle](http://fiddle.jyt.io/) |  | |  | interactive C++ interpreter/terminal, but currently broken |  |
@@ -136,6 +137,20 @@ Coliru provides a public API, so it can, for example, be integrated into website
 ![](https://img.shields.io/badge/interactive-stdin-ff69b4.svg)
 
 Another single file compilation IDE, but with the rare feature of interactive stdin input. The web application seems to hang sometimes during compilation or execution. 
+
+
+### [Repl.it](https://repl.it/languages/cpp11)
+
+![](https://img.shields.io/badge/C%2B%2B-17-blue.svg)
+![](https://img.shields.io/badge/GCC-7.1.0-008080.svg)  
+![](https://img.shields.io/badge/flags-predefined-red.svg)
+![](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
+![](https://img.shields.io/badge/stdin-static|interactive-brightgreen.svg)  
+![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
+![](https://img.shields.io/badge/save%20session-with%20login-ff69b4.svg)
+![](https://img.shields.io/badge/interactive-stdin-ff69b4.svg)
+
+A single file compilation IDE, but comes with a shell-like interactive stdin input. Users that have logged in can save multiple named sessions (but no multi-file compilation). While the prompt says something about gcc 4.6.3, it uses gcc 7.1.0.
 
 
 ### [Tutorialspoint CodingGround](https://www.tutorialspoint.com/compile_cpp11_online.php)
