@@ -68,6 +68,7 @@ The snapshot versions of GCC and Clang that are provided make it possible to pla
 ![](https://img.shields.io/badge/diff%20assembler-yes-ff69b4.svg)
 ![](https://img.shields.io/badge/include-github-ff69b4.svg)
 ![](https://img.shields.io/badge/sharing-link%20|%20embed-ff69b4.svg)
+![](https://img.shields.io/badge/AST%20🌳-clang-ff69b4.svg)
 
 [Compiler Explorer](http://godbolt.org) is a compile-as-you-type IDE with a unique feature as it presents the assembly produced by the compilers. The resulting assembler can be color-mapped to the originating C++ code. It supports the use of different sources and multiple compilers at the same time, so we can compare the assembly produced by different code and/or different compilers, optimization flags, etc. 
 Compiler explorer can be found on [GitHub](https://github.com/mattgodbolt/compiler-explorer) and can be used locally.
