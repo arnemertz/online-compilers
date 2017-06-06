@@ -65,6 +65,7 @@ The snapshot versions of GCC and Clang that are provided make it possible to pla
 ![](https://img.shields.io/badge/assembly-yes-brightgreen.svg)
 ![](https://img.shields.io/badge/execution-no-red.svg)    
 ![](https://img.shields.io/badge/interactive-compilation-ff69b4.svg)
+![](https://img.shields.io/badge/libraries-Boost-ff69b4.svg)
 ![](https://img.shields.io/badge/diff%20assembler-yes-ff69b4.svg)
 ![](https://img.shields.io/badge/include-github-ff69b4.svg)
 ![](https://img.shields.io/badge/sharing-link%20|%20embed-ff69b4.svg)
