@@ -12,20 +12,20 @@ Besides mere compilation, most online compilers also execute the compiled progra
 
 ## TL;DR 
 
-| Name | Number Compilers | C++ version | Execution | Distinguishing features | Other Languages |
-|------|:----------------:|:-----------:|:---------:|-------------------------|:---------------:|
-| [Wandbox](http://melpon.org/wandbox) | 35 | C++17 | ✔️ | multiple files | ✔️ |
-| [Compiler Explorer (Godbolt)](http://godbolt.org) | 60+ | C++17 |  | compile to assembly as you type, on multiple compilers | ✔️ |
-| [Coliru](http://coliru.stacked-crooked.com) | 2 | C++17 | ✔️ | GCC & Clang, freely editable shell command line |  |
-| [Rextester](http://rextester.com/) | 3 | C++14 | ✔️ | GCC, Clang, MSVC, collaborative live editing features | ✔️ |
-| [Ideone](https://ideone.com/) | 1 | C++14 | ✔️ | GCC | ✔️ |
-| [Visual C++ Compiler Online](http://webcompiler.cloudapp.net/) | 1 | C++14-17 | ✔️ | up-to-date MSVC 19/2017 |  |
-| [C++ Shell](http://cpp.sh/) | 1 | C++11-14 | ✔️ | GCC, interactive Stdin |  |
-| [repl.it](https://repl.it/languages/cpp11) | 1 | C++17 | ✔️ | GCC, interactive Stdin | ✔️ |
-| [Tutorialspoint CodingGround](https://www.tutorialspoint.com/compile_cpp11_online.php) | 1 | C++11 | ✔️ | multiple files like proper IDE, GCC <br/> but sluggish web app |  |
-| [Codepad](http://codepad.org/) | 1 | C++03 | ✔️ | GCC | ✔️ |
-| [TIO - Try It Online](https://tio.run/#cpp-gcc) | 1 | C++14 | ✔️ | Easy sharing, split source in header, source and footer | ✔️ |
-| [LoopPerfect C++ Fiddle](http://fiddle.jyt.io/) |  | |  | interactive C++ interpreter/terminal, but currently broken |  |
+| Name | Number Compilers | C++ version | boost version | Execution | Distinguishing features | Other Languages |
+|------|:----------------:|:-----------:|:-------------:|:---------:|-------------------------|:---------------:|
+| [Wandbox](http://melpon.org/wandbox) | 35 | C++17 | 1.64 | ✔️ | multiple files | ✔️ |
+| [Compiler Explorer (Godbolt)](http://godbolt.org) | 60+ | C++17 |  |  | compile to assembly as you type, on multiple compilers | ✔️ |
+| [Coliru](http://coliru.stacked-crooked.com) | 2 | C++17 | 1.63 (header only) | ✔️ | GCC & Clang, freely editable shell command line |  |
+| [Rextester](http://rextester.com/) | 3 | C++14 | 1.58 (header only) | ✔️ | GCC, Clang, MSVC, collaborative live editing features | ✔️ |
+| [Ideone](https://ideone.com/) | 1 | C++14 | 1.62 (header only) | ✔️ | GCC | ✔️ |
+| [Visual C++ Compiler Online](http://webcompiler.cloudapp.net/) | 1 | C++14-17 |  | ✔️ | up-to-date MSVC 19/2017 |  |
+| [C++ Shell](http://cpp.sh/) | 1 | C++11-14 | 1.55 (header only) | ✔️ | GCC, interactive Stdin |  |
+| [repl.it](https://repl.it/languages/cpp11) | 1 | C++17 |  | ✔️ | GCC, interactive Stdin | ✔️ |
+| [Tutorialspoint CodingGround](https://www.tutorialspoint.com/compile_cpp11_online.php) | 1 | C++11 |  | ✔️ | multiple files like proper IDE, GCC <br/> but sluggish web app |  |
+| [Codepad](http://codepad.org/) | 1 | C++03 | 1.34 | ✔️ | GCC | ✔️ |
+| [TIO - Try It Online](https://tio.run/#cpp-gcc) | 1 | C++14 |  | ✔️ | Easy sharing, split source in header, source and footer | ✔️ |
+| [LoopPerfect C++ Fiddle](http://fiddle.jyt.io/) |  | | | | interactive C++ interpreter/terminal, but currently broken |  |
 
 ## The Compilers 
 
