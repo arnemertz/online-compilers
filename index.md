@@ -15,7 +15,7 @@ Besides mere compilation, most online compilers also execute the compiled progra
 | Name | Number Compilers | C++ version | boost version | Execution | Distinguishing features | Other Languages |
 |------|:----------------:|:-----------:|:-------------:|:---------:|-------------------------|:---------------:|
 | [Wandbox](http://melpon.org/wandbox) | 35 | C++17 | 1.64 | ✔️ | multiple files | ✔️ |
-| [Compiler Explorer (Godbolt)](http://godbolt.org) | 60+ | C++17 |  |  | compile to assembly as you type, on multiple compilers | ✔️ |
+| [Compiler Explorer (Godbolt)](http://godbolt.org) | 60+ | C++17 | 1.64 |  | compile to assembly as you type, on multiple compilers | ✔️ |
 | [Coliru](http://coliru.stacked-crooked.com) | 2 | C++17 | 1.63 (header only) | ✔️ | GCC & Clang, freely editable shell command line |  |
 | [Rextester](http://rextester.com/) | 3 | C++14 | 1.58 (header only) | ✔️ | GCC, Clang, MSVC, collaborative live editing features | ✔️ |
 | [Ideone](https://ideone.com/) | 1 | C++14 | 1.62 (header only) | ✔️ | GCC | ✔️ |
@@ -65,6 +65,7 @@ The snapshot versions of GCC and Clang that are provided make it possible to pla
 ![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)
 ![](https://img.shields.io/badge/assembly-yes-brightgreen.svg)
 ![](https://img.shields.io/badge/execution-no-red.svg)    
+![](https://img.shields.io/badge/libraries-Boost-ff69b4.svg)
 ![](https://img.shields.io/badge/interactive-compilation-ff69b4.svg)
 ![](https://img.shields.io/badge/diff%20assembler-yes-ff69b4.svg)
 ![](https://img.shields.io/badge/include-github-ff69b4.svg)
