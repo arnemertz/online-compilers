@@ -37,8 +37,10 @@ Besides mere compilation, most online compilers also execute the compiled progra
 ![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)
 ![Runtime parameters: yes](https://img.shields.io/badge/runtime%20parameters-yes-brightgreen.svg)
 ![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)  
+![](https://img.shields.io/badge/Boost-1.64-8c6cd1.svg)
+![](https://img.shields.io/badge/Sprout-yes-8c6cd1.svg)
+![](https://img.shields.io/badge/MessagePack-2.1.3-8c6cd1.svg)  
 ![](https://img.shields.io/badge/multi%20file-yes-ff69b4.svg)
-![](https://img.shields.io/badge/libraries-Boost,Sprout,MessagePack-ff69b4.svg)
 ![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
 
 [Wandbox](http://melpon.org/wandbox) provides pretty much all of the functionality you'd want from a typical online compiler, including support for multiple files and different editor keybindings. 
@@ -64,8 +66,8 @@ The snapshot versions of GCC and Clang that are provided make it possible to pla
 ![ARM CL 2017 RTW](https://img.shields.io/badge/ARM%20CL-2017%20RTW-008080.svg)  
 ![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)
 ![](https://img.shields.io/badge/assembly-yes-brightgreen.svg)
-![](https://img.shields.io/badge/execution-no-red.svg)    
-![](https://img.shields.io/badge/libraries-Boost-ff69b4.svg)
+![](https://img.shields.io/badge/execution-no-red.svg)  
+![](https://img.shields.io/badge/Boost-1.64-8c6cd1.svg)  
 ![](https://img.shields.io/badge/interactive-compilation-ff69b4.svg)
 ![](https://img.shields.io/badge/diff%20assembler-yes-ff69b4.svg)
 ![](https://img.shields.io/badge/include-github-ff69b4.svg)
@@ -84,7 +86,7 @@ Currently, the compiled code can **not** be executed, but there is an [open GitH
 ![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)
 ![Runtime parameters: yes](https://img.shields.io/badge/runtime%20parameters-yes-brightgreen.svg)
 ![Stdin: yes](https://img.shields.io/badge/stdin-shell%2Bpipe-brightgreen.svg)  
-![](https://img.shields.io/badge/libraries-Boost-ff69b4.svg)
+![](https://img.shields.io/badge/Boost-1.63%20header--only-8c6cd1.svg)  
 ![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
 
 [Coliru](http://coliru.stacked-crooked.com) provides an editor and a freely editable Linux shell command line, which makes it relatively powerful. For example, you can compare the outputs of both Clang and GCC by issuing the commands for compilation and execution for both compilers. Editing of multiple files at once is not supported, but since the code you share is saved in an archive you can use that to prepare multiple files (see the [FAQ](https://docs.google.com/document/d/18md3rLdgD9f5Wro3i7YYopJBFb_6MPCO8-0ihtxHoyM/edit) for an example). It is also possible to download e.g. a Gist via `curl` before the compilation.
@@ -100,7 +102,7 @@ Coliru provides a public API, so it can, for example, be integrated into website
 ![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)
 ![Runtime parameters: no](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
 ![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)    
-![](https://img.shields.io/badge/libraries-Boost-ff69b4.svg)
+![](https://img.shields.io/badge/Boost-1.58%20header--only-8c6cd1.svg)  
 ![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
 ![](https://img.shields.io/badge/interactive-live_editing-ff69b4.svg)
 
@@ -114,7 +116,7 @@ Coliru provides a public API, so it can, for example, be integrated into website
 ![Compiler flags: free text](https://img.shields.io/badge/flags-predefined-red.svg)
 ![Runtime parameters: no](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
 ![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)  
-![](https://img.shields.io/badge/libraries-Boost-ff69b4.svg)
+![](https://img.shields.io/badge/Boost-1.62%20header--only-8c6cd1.svg)  
 ![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
 
 
@@ -139,7 +141,7 @@ Coliru provides a public API, so it can, for example, be integrated into website
 ![](https://img.shields.io/badge/flags-reduced%20set-yellowgreen.svg)
 ![](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
 ![](https://img.shields.io/badge/stdin-static%20|%20interactive-brightgreen.svg)  
-![](https://img.shields.io/badge/libraries-Boost-ff69b4.svg)
+![](https://img.shields.io/badge/Boost-1.55%20header--only-8c6cd1.svg)  
 ![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
 ![](https://img.shields.io/badge/interactive-stdin-ff69b4.svg)
 
@@ -193,7 +195,7 @@ An online IDE with multiple files. The whole web application seems to be sluggis
 ![](https://img.shields.io/badge/flags-predefined-red.svg)
 ![](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
 ![](https://img.shields.io/badge/stdin-no-red.svg)  
-![](https://img.shields.io/badge/libraries-Boost-ff69b4.svg)
+![](https://img.shields.io/badge/Boost-1.34-8c6cd1.svg)  
 ![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
 
 [Codepad](http://codepad.org/) can be unintuitive - pasting new code at the URL of previously pasted code will return to the original code. The code will be compiled and executed as-is without any possibility to further parametrize it.
