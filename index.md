@@ -90,7 +90,7 @@ Currently, the compiled code can **not** be executed, but there is an [open GitH
 ![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
 
 [Coliru](http://coliru.stacked-crooked.com) provides an editor and a freely editable Linux shell command line, which makes it relatively powerful. For example, you can compare the outputs of both Clang and GCC by issuing the commands for compilation and execution for both compilers. Editing of multiple files at once is not supported, but since the code you share is saved in an archive you can use that to prepare multiple files (see the [FAQ](https://docs.google.com/document/d/18md3rLdgD9f5Wro3i7YYopJBFb_6MPCO8-0ihtxHoyM/edit) for an example). It is also possible to download e.g. a Gist via `curl` before the compilation.
-Coliru provides a public API, so it can, for example, be integrated into websites [cppreference.com](cppreference.com), which uses Coliru for its runnable examples.
+Coliru provides a public API, so it can, for example, be integrated into websites [cppreference.com](http://cppreference.com), which uses Coliru for its runnable examples.
 
 
 ### [Rextester](http://rextester.com/)
