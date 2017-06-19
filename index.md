@@ -12,7 +12,7 @@ Besides mere compilation, most online compilers also execute the compiled progra
 
 ## TL;DR 
 
-| Name | Number Compilers | C++ version | boost version | Execution | Distinguishing features | Other Languages |
+| Name | Number Compilers | C++ Version | Boost Version | Execution | Distinguishing Features | Other Languages |
 |------|:----------------:|:-----------:|:-------------:|:---------:|-------------------------|:---------------:|
 | [Wandbox](http://melpon.org/wandbox) | 35 | C++17 | 1.64 | ✔️ | multiple files | ✔️ |
 | [Compiler Explorer (Godbolt)](http://godbolt.org) | 60+ | C++17 | 1.64 |  | compile to assembly as you type, on multiple compilers | ✔️ |
