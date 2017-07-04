@@ -17,6 +17,7 @@ Besides mere compilation, most online compilers also execute the compiled progra
 | [Wandbox](http://melpon.org/wandbox) | 35 | C++17 | 1.64 | ✔️ | multiple files | ✔️ |
 | [Compiler Explorer (Godbolt)](http://godbolt.org) | 60+ | C++17 | 1.64 |  | compile to assembly as you type, on multiple compilers | ✔️ |
 | [Coliru](http://coliru.stacked-crooked.com) | 2 | C++17 | 1.63 (header only) | ✔️ | GCC & Clang, freely editable shell command line |  |
+| [Quick-Bench](http://quick-bench.com/) |  1 | C++17 | | only benchmarks | benchmarks functions against each other | |
 | [Rextester](http://rextester.com/) | 3 | C++14 | 1.58 (header only) | ✔️ | GCC, Clang, MSVC, collaborative live editing features | ✔️ |
 | [Ideone](https://ideone.com/) | 1 | C++14 | 1.62 (header only) | ✔️ | GCC | ✔️ |
 | [Visual C++ Compiler Online](http://webcompiler.cloudapp.net/) | 1 | C++14-17 |  | ✔️ | up-to-date MSVC 19/2017 |  |
@@ -92,6 +93,14 @@ Currently, the compiled code can **not** be executed, but there is an [open GitH
 [Coliru](http://coliru.stacked-crooked.com) provides an editor and a freely editable Linux shell command line, which makes it relatively powerful. For example, you can compare the outputs of both Clang and GCC by issuing the commands for compilation and execution for both compilers. Editing of multiple files at once is not supported, but since the code you share is saved in an archive you can use that to prepare multiple files (see the [FAQ](https://docs.google.com/document/d/18md3rLdgD9f5Wro3i7YYopJBFb_6MPCO8-0ihtxHoyM/edit) for an example). It is also possible to download e.g. a Gist via `curl` before the compilation.
 Coliru provides a public API, so it can, for example, be integrated into websites [cppreference.com](http://cppreference.com), which uses Coliru for its runnable examples.
 
+### [Quick-Bench](http://quick-bench.com)
+![C++17](https://img.shields.io/badge/C++-17-blue.svg)
+![Clang 3.8](https://img.shields.io/badge/Clang-3.8-008080.svg)  
+![Compiler flags: reduced set](https://img.shields.io/badge/flags-reduced%20set-yellowgreen.svg)
+![](https://img.shields.io/badge/execution-benchmarks%20only-yellowgreen.svg)  
+![](https://img.shields.io/badge/measure-execution%20time-ff69b4.svg)
+
+[Quick-Bench](http://quick-bench.com) is specialized for benchmarking snippets of C++ code. It relies on Google Benchmark and, instead of showing your code's console output, it shows how fast it executed compared to an empty function.
 
 ### [Rextester](http://rextester.com/)
 
