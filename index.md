@@ -24,7 +24,7 @@ Besides mere compilation, most online compilers also execute the compiled progra
 | [C++ Shell](http://cpp.sh/) | 1 | C++11-14 | 1.55 (header only) | ✔️ | GCC, interactive Stdin |  |
 | [repl.it](https://repl.it/languages/cpp11) | 1 | C++17 |  | ✔️ | GCC, interactive Stdin | ✔️ |
 | [Tutorialspoint CodingGround](https://www.tutorialspoint.com/compile_cpp11_online.php) | 1 | C++11 |  | ✔️ | multiple files like proper IDE, GCC <br/> but sluggish web app |  |
-| [Geeksforgeeks](http://code.geegsforgeeks.org) | 1 | C++14 | 1.58 | ✔️ | GCC, full screen editor | ✔️ |
+| [Geeksforgeeks](http://code.geeksforgeeks.org/) | 1 | C++14 | 1.58 | ✔️ | GCC, full screen editor | ✔️ |
 | [Codepad](http://codepad.org/) | 1 | C++03 | 1.34 | ✔️ | GCC | ✔️ |
 | [TIO - Try It Online](https://tio.run/#cpp-gcc) | 1 | C++14 |  | ✔️ | Easy sharing, split source in header, source and footer | ✔️ |
 | [LoopPerfect C++ Fiddle](http://fiddle.jyt.io/) |  | | | | interactive C++ interpreter/terminal, but currently broken |  |
@@ -184,7 +184,7 @@ A single file compilation IDE, but comes with a shell-like interactive stdin inp
 
 An online IDE with multiple files. The whole web application seems to be sluggish at times, I could not register to try out the features that require an account login like saving or uploading whole projects (broken link/unresponsive web app). 
 
-### [Geeksforgeeks](http://code.geegsforgeeks.org)
+### [Geeksforgeeks](http://code.geeksforgeeks.org/)
 
 ![](https://img.shields.io/badge/C%2B%2B-14-blue.svg)
 ![](https://img.shields.io/badge/GCC-5.4.1-008080.svg)  
