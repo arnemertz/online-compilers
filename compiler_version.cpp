@@ -1,5 +1,13 @@
 #include <iostream>
 
+//toggle to check for boost version
+#define CHECK_BOOST_VERSION 0
+#if CHECK_BOOST_VERSION
+#include <boost/version.hpp>
+#endif
+
+
+
 int main() {
   std::cout << "Hello, compiler!\n\n";
   std::cout <<
@@ -28,8 +36,14 @@ int main() {
 #elif defined(__SUNPRO_C) || defined(__SUNPRO_CC)
   "Solaris Studio" << __SUNPRO_CC <<
 
+#else
+  "Unknown compiler" <<  
 #endif
 
  '\n';
+#if CHECK_BOOST_VERSION
+  std::cout << "\nBoost version: " << BOOST_LIB_VERSION << '\n';
+#endif
+ 
 }
 
