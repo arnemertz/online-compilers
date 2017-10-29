@@ -14,6 +14,7 @@ Besides mere compilation, most online compilers also execute the compiled progra
 
 | Name | Number Compilers | C++ Version | Boost Version | Execution | Distinguishing Features | Other Languages |
 |------|:----------------:|:-----------:|:-------------:|:---------:|-------------------------|:---------------:|
+| [paiza.IO](https://paiza.IO/) | 29 | C++14 |  | ✔️ | multiple files, collaborative live editing, full screen editor, Internet connection, GitHub(gist) integration | ✔️ |
 | [Wandbox](http://melpon.org/wandbox) | 35 | C++17 | 1.64 | ✔️ | multiple files | ✔️ |
 | [Compiler Explorer (Godbolt)](http://godbolt.org) | 60+ | C++17 | 1.64 |  | compile to assembly as you type, on multiple compilers | ✔️ |
 | [Coliru](http://coliru.stacked-crooked.com) | 2 | C++17 | 1.63 (header only) | ✔️ | GCC & Clang, freely editable shell command line |  |
@@ -30,6 +31,21 @@ Besides mere compilation, most online compilers also execute the compiled progra
 | [LoopPerfect C++ Fiddle](http://fiddle.jyt.io/) |  | | | | interactive C++ interpreter/terminal, but currently broken |  |
 
 ## The Compilers 
+
+### [paiza.IO](https://paiza.IO)
+![C++14](https://img.shields.io/badge/C++-14-blue.svg)
+![Clang 4.0](https://img.shields.io/badge/Clang-4.0-008080.svg)
+![Compiler flags: predefined](https://img.shields.io/badge/flags-predefined-brightgreen.svg)
+![Runtime parameters: no](https://img.shields.io/badge/runtime%20parameters-no-brightgreen.svg)
+![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)  
+![](https://img.shields.io/badge/multi%20file-yes-ff69b4.svg)
+![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
+![](https://img.shields.io/badge/include-github-ff69b4.svg)
+![](https://img.shields.io/badge/sharing-link%20|%20embed-ff69b4.svg)
+![](https://img.shields.io/badge/internet%20connection-yes-ff69b4.svg)
+
+[paiza.IO](http://paiza.IO) is a full screen online IDE that allows to edit, compile, execute and share multiple C++ files. As a distinguishing feature, it allows live editing, multiple file editing, Internet connection, and GitHub(gist) integration.
+
 
 ### [Wandbox](http://melpon.org/wandbox)
 ![C++17](https://img.shields.io/badge/C++-17-blue.svg)
