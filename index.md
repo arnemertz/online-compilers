@@ -14,7 +14,7 @@ Besides mere compilation, most online compilers also execute the compiled progra
 
 | Name | Number Compilers | C++ Version | Boost Version | Execution | Distinguishing Features | Other Languages |
 |------|:----------------:|:-----------:|:-------------:|:---------:|-------------------------|:---------------:|
-| [paiza.IO](https://paiza.IO/) | 29 | C++14 |  | ✔️ | multiple files, collaborative live editing, full screen editor, Internet connection, GitHub(gist) integration | ✔️ |
+| [paiza.IO](https://paiza.IO/) | 1 | C++14 |  | ✔️ | multiple files, collaborative live editing, full screen editor, Internet connection, GitHub(gist) integration | ✔️ |
 | [Wandbox](http://melpon.org/wandbox) | 35 | C++17 | 1.64 | ✔️ | multiple files | ✔️ |
 | [Compiler Explorer (Godbolt)](http://godbolt.org) | 60+ | C++17 | 1.64 |  | compile to assembly as you type, on multiple compilers | ✔️ |
 | [Coliru](http://coliru.stacked-crooked.com) | 2 | C++17 | 1.63 (header only) | ✔️ | GCC & Clang, freely editable shell command line |  |
