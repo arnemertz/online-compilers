@@ -35,7 +35,7 @@ Besides mere compilation, most online compilers also execute the compiled progra
 
 ### [Codiva.io](https://www.codiva.io)
 ![C++14](https://img.shields.io/badge/C++-14-blue.svg)
-![Clang 3.5](https://img.shields.io/badge/Clang-4.0-008080.svg)
+![Clang 3.5](https://img.shields.io/badge/Clang-3.5-008080.svg)
 ![Compiler flags: predefined](https://img.shields.io/badge/flags-predefined-brightgreen.svg)
 ![Runtime parameters: no](https://img.shields.io/badge/runtime%20parameters-no-brightgreen.svg)
 ![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)  
