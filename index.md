@@ -23,7 +23,6 @@ Besides mere compilation, most online compilers also execute the compiled progra
 | [Cppinsights](https://cppinsights.io) | 1 | C++17 | |  | compile to a more verbose code that tells what the compiler does under the hood | |
 | [Rextester](http://rextester.com/) | 3 | C++14 | 1.58 (header only) | ✔️ | GCC, Clang, MSVC, collaborative live editing features | ✔️ |
 | [Ideone](https://ideone.com/) | 1 | C++14 | 1.62 (header only) | ✔️ | GCC | ✔️ |
-| [Visual C++ Compiler Online](http://webcompiler.cloudapp.net/) | 1 | C++14-17 |  | ✔️ | up-to-date MSVC 19/2017 |  |
 | [C++ Shell](http://cpp.sh/) | 1 | C++11-14 | 1.55 (header only) | ✔️ | GCC, interactive Stdin |  |
 | [repl.it](https://repl.it/languages/cpp11) | 1 | C++17 |  | ✔️ | GCC, interactive Stdin | ✔️ |
 | [Tutorialspoint CodingGround](https://www.tutorialspoint.com/compile_cpp11_online.php) | 1 | C++11 |  | ✔️ | multiple files like proper IDE, GCC <br/> but sluggish web app |  |
@@ -178,17 +177,6 @@ Coliru provides a public API, so it can, for example, be integrated into website
 
 
 [Ideone](https://ideone.com/) is a standard online IDE that allows to edit, compile, execute and share single C++ files. 
-
-
-### [Visual C++ Compiler Online](http://webcompiler.cloudapp.net/)
-
-![](https://img.shields.io/badge/C%2B%2B-14-blue.svg)
-![](https://img.shields.io/badge/MSVC-19/2017%20(x86)-008080.svg)  
-![](https://img.shields.io/badge/flags-reduced%20set-yellowgreen.svg)
-![](https://img.shields.io/badge/runtime%20parameters-yes-brightgreen.svg)
-![](https://img.shields.io/badge/stdin-no-red.svg)  
-
-[Microsoft's showcase](http://webcompiler.cloudapp.net/) for its most up-to-date compiler. It allows single file compilation, running the executable after compilation is optional.
 
 
 ### [C++ Shell](http://cpp.sh/)
