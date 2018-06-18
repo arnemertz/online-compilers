@@ -14,11 +14,13 @@ Besides mere compilation, most online compilers also execute the compiled progra
 
 | Name | Number Compilers | C++ Version | Boost Version | Execution | Distinguishing Features | Other Languages |
 |------|:----------------:|:-----------:|:-------------:|:---------:|-------------------------|:---------------:|
+| [Codiva.io](https://www.codiva.io/) | 1 | C++14 |  | ✔️ | Clang, user input, multiple files, continuous compilation every few keystrokes, sharing and embeding in blogs | ✔️ |
 | [paiza.IO](https://paiza.IO/) | 1 | C++14 |  | ✔️ | multiple files, collaborative live editing, full screen editor, Internet connection, GitHub(gist) integration | ✔️ |
 | [Wandbox](http://melpon.org/wandbox) | 35 | C++17 | 1.64 | ✔️ | multiple files | ✔️ |
 | [Compiler Explorer (Godbolt)](http://godbolt.org) | 60+ | C++17 | 1.64 |  | compile to assembly as you type, on multiple compilers | ✔️ |
 | [Coliru](http://coliru.stacked-crooked.com) | 2 | C++17 | 1.63 (header only) | ✔️ | GCC & Clang, freely editable shell command line |  |
-| [Quick-Bench](http://quick-bench.com/) |  7 | C++17 | | only benchmarks | benchmarks functions against each other | |
+| [Quick-Bench](http://quick-bench.com/) |  1 | C++17 | | only benchmarks | benchmarks functions against each other | |
+| [Cppinsights](https://cppinsights.io) | 1 | C++17 | |  | compile to a more verbose code that tells what the compiler does under the hood | |
 | [Rextester](http://rextester.com/) | 3 | C++14 | 1.58 (header only) | ✔️ | GCC, Clang, MSVC, collaborative live editing features | ✔️ |
 | [Ideone](https://ideone.com/) | 1 | C++14 | 1.62 (header only) | ✔️ | GCC | ✔️ |
 | [Visual C++ Compiler Online](http://webcompiler.cloudapp.net/) | 1 | C++14-17 |  | ✔️ | up-to-date MSVC 19/2017 |  |
@@ -31,6 +33,18 @@ Besides mere compilation, most online compilers also execute the compiled progra
 | [LoopPerfect C++ Fiddle](http://fiddle.jyt.io/) |  | | | | interactive C++ interpreter/terminal, but currently broken |  |
 
 ## The Compilers 
+
+### [Codiva.io](https://www.codiva.io)
+![C++14](https://img.shields.io/badge/C++-14-blue.svg)
+![Clang 3.5](https://img.shields.io/badge/Clang-3.5-008080.svg)
+![Compiler flags: predefined](https://img.shields.io/badge/flags-predefined-brightgreen.svg)
+![Runtime parameters: no](https://img.shields.io/badge/runtime%20parameters-no-brightgreen.svg)
+![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)  
+![](https://img.shields.io/badge/multi%20file-yes-ff69b4.svg)
+![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
+![](https://img.shields.io/badge/sharing-link%20|%20embed-ff69b4.svg)
+
+[Codiva.io](https://www.codiva.io) is an online compiler and IDE that allows to edit, compile, execute and share multiple C++ files. As a distinguishing feature, it compiles the code every few keystrokes, and highlights the error lines in the editor itself saving time. It even works on mobile.
 
 ### [paiza.IO](https://paiza.IO)
 ![C++14](https://img.shields.io/badge/C++-14-blue.svg)
@@ -124,6 +138,17 @@ Coliru provides a public API, so it can, for example, be integrated into website
 ![](https://img.shields.io/badge/measure-execution%20time-ff69b4.svg)
 
 [Quick-Bench](http://quick-bench.com) is specialized for benchmarking snippets of C++ code. It relies on Google Benchmark and, instead of showing your code's console output, it shows how fast it executed compared to an empty function.
+
+
+### [Cppinsights](https://cppinsights.io)
+![C++17](https://img.shields.io/badge/C++-17-blue.svg)
+![Clang 6.0.1](https://img.shields.io/badge/Clang-6.0.1-008080.svg)  
+![No compiler flags](https://img.shields.io/badge/flags-predefined-red.svg)
+![No execution](https://img.shields.io/badge/no-execution-red.svg)  
+![compiler magic showcase](https://img.shields.io/badge/show-compiler-magic-ff69b4.svg)
+
+[Cppinsights](https://cppinsights.io) is not so much an online IDE in the traditional sense as it does not allow to execute compiled programs. Instead, it shows a different version of the code that shows some of the magic the compiler does under the hood.
+
 
 ### [Rextester](http://rextester.com/)
 
