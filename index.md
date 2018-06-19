@@ -35,7 +35,7 @@ Besides mere compilation, most online compilers also execute the compiled progra
 
 ### [Codiva.io](https://www.codiva.io)
 ![C++14](https://img.shields.io/badge/C++-14-blue.svg)
-![Clang 3.5](https://img.shields.io/badge/Clang-3.5-008080.svg)
+![Clang 3.5](https://img.shields.io/badge/Clang-3.5-008080.svg)  
 ![Compiler flags: predefined](https://img.shields.io/badge/flags-predefined-brightgreen.svg)
 ![Runtime parameters: no](https://img.shields.io/badge/runtime%20parameters-no-brightgreen.svg)
 ![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)  
@@ -47,7 +47,7 @@ Besides mere compilation, most online compilers also execute the compiled progra
 
 ### [paiza.IO](https://paiza.IO)
 ![C++14](https://img.shields.io/badge/C++-14-blue.svg)
-![Clang 4.0](https://img.shields.io/badge/Clang-4.0-008080.svg)
+![Clang 4.0](https://img.shields.io/badge/Clang-4.0-008080.svg)  
 ![Compiler flags: predefined](https://img.shields.io/badge/flags-predefined-brightgreen.svg)
 ![Runtime parameters: no](https://img.shields.io/badge/runtime%20parameters-no-brightgreen.svg)
 ![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)  
@@ -125,13 +125,13 @@ Coliru provides a public API, so it can, for example, be integrated into website
 
 ### [Quick-Bench](http://quick-bench.com)
 ![C++17](https://img.shields.io/badge/C++-17-blue.svg)
-![Clang 3.8](https://img.shields.io/badge/Clang-3.8-008080.svg)  
+![Clang 3.8](https://img.shields.io/badge/Clang-3.8-008080.svg)
 ![Clang 3.9](https://img.shields.io/badge/Clang-3.9-008080.svg)
 ![Clang 4.9](https://img.shields.io/badge/Clang-4.0-008080.svg)
 ![Clang 5.0](https://img.shields.io/badge/Clang-5.0-008080.svg)
 ![GCC 5.5](https://img.shields.io/badge/GCC-5.5-008080.svg)
 ![GCC 6.4](https://img.shields.io/badge/GCC-6.4-008080.svg)
-![GCC 7.2](https://img.shields.io/badge/GCC-7.2-008080.svg)
+![GCC 7.2](https://img.shields.io/badge/GCC-7.2-008080.svg)  
 ![Compiler flags: reduced set](https://img.shields.io/badge/flags-reduced%20set-yellowgreen.svg)
 ![](https://img.shields.io/badge/execution-benchmarks%20only-yellowgreen.svg)  
 ![](https://img.shields.io/badge/measure-execution%20time-ff69b4.svg)
