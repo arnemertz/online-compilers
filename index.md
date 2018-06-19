@@ -143,8 +143,8 @@ Coliru provides a public API, so it can, for example, be integrated into website
 ![C++17](https://img.shields.io/badge/C++-17-blue.svg)
 ![Clang 6.0.1](https://img.shields.io/badge/Clang-6.0.1-008080.svg)  
 ![No compiler flags](https://img.shields.io/badge/flags-predefined-red.svg)
-![No execution](https://img.shields.io/badge/no-execution-red.svg)  
-![compiler magic showcase](https://img.shields.io/badge/show-compiler-magic-ff69b4.svg)
+![No execution](https://img.shields.io/badge/execution-no-red.svg)  
+![compiler magic showcase](https://img.shields.io/badge/show-compiler%20magic-ff69b4.svg)
 
 [Cppinsights](https://cppinsights.io) is not so much an online IDE in the traditional sense as it does not allow to execute compiled programs. Instead, it shows a different version of the code that shows some of the magic the compiler does under the hood.
 
