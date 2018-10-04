@@ -14,7 +14,7 @@ Besides mere compilation, most online compilers also execute the compiled progra
 
 | Name | Number Compilers | C++ Version | Boost Version | Execution | Distinguishing Features | Other Languages |
 |------|:----------------:|:-----------:|:-------------:|:---------:|-------------------------|:---------------:|
-| [Codiva.io](https://www.codiva.io/) | 1 | C++14 |  | ✔️ | Clang, user input, multiple files, continuous compilation every few keystrokes, sharing and embeding in blogs | ✔️ |
+| [Codiva.io](https://www.codiva.io/) | 1 | C++17 | 1.65 | ✔️ | Clang, user input, multiple files, continuous compilation every few keystrokes, sharing and embeding in blogs | ✔️ |
 | [paiza.IO](https://paiza.IO/) | 1 | C++14 |  | ✔️ | multiple files, collaborative live editing, full screen editor, Internet connection, GitHub(gist) integration | ✔️ |
 | [Wandbox](http://melpon.org/wandbox) | 35 | C++17 | 1.64 | ✔️ | multiple files | ✔️ |
 | [Compiler Explorer (Godbolt)](http://godbolt.org) | 60+ | C++17 | 1.64 |  | compile to assembly as you type, on multiple compilers | ✔️ |
@@ -34,11 +34,12 @@ Besides mere compilation, most online compilers also execute the compiled progra
 ## The Compilers 
 
 ### [Codiva.io](https://www.codiva.io)
-![C++14](https://img.shields.io/badge/C++-14-blue.svg)
-![Clang 3.5](https://img.shields.io/badge/Clang-3.5-008080.svg)  
+![C++17](https://img.shields.io/badge/C++-17-blue.svg)
+![Clang 7.0](https://img.shields.io/badge/Clang-7.0-008080.svg)  
 ![Compiler flags: predefined](https://img.shields.io/badge/flags-predefined-brightgreen.svg)
 ![Runtime parameters: no](https://img.shields.io/badge/runtime%20parameters-no-brightgreen.svg)
 ![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)  
+![](https://img.shields.io/badge/Boost-1.65-96004a.svg) 
 ![](https://img.shields.io/badge/multi%20file-yes-ff69b4.svg)
 ![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
 ![](https://img.shields.io/badge/sharing-link%20|%20embed-ff69b4.svg)
