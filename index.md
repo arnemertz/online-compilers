@@ -39,7 +39,7 @@ Besides mere compilation, most online compilers also execute the compiled progra
 ![Compiler flags: predefined](https://img.shields.io/badge/flags-predefined-brightgreen.svg)
 ![Runtime parameters: no](https://img.shields.io/badge/runtime%20parameters-no-brightgreen.svg)
 ![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)  
-![](https://img.shields.io/badge/Boost-1.65-96004a.svg) 
+![](https://img.shields.io/badge/Boost-1.65-96004a.svg)  
 ![](https://img.shields.io/badge/multi%20file-yes-ff69b4.svg)
 ![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
 ![](https://img.shields.io/badge/sharing-link%20|%20embed-ff69b4.svg)
