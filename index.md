@@ -104,7 +104,7 @@ The snapshot versions of GCC and Clang that are provided make it possible to pla
 ![](https://img.shields.io/badge/Abseil-trunk-96004a.svg)
 ![](https://img.shields.io/badge/Boost-1.70-96004a.svg)
 ![](https://img.shields.io/badge/Catch2-trunk-96004a.svg)
-![](https://img.shields.io/badge/range%2Dv3-trunk-96004a.svg)
+![](https://img.shields.io/badge/range%20v3-trunk-96004a.svg)
 ![](https://img.shields.io/badge/more-libraries-96004a.svg)  
 ![](https://img.shields.io/badge/interactive-compilation-ff69b4.svg)
 ![](https://img.shields.io/badge/diff%20assembler-yes-ff69b4.svg)
