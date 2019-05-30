@@ -29,7 +29,6 @@ Besides mere compilation, most online compilers also execute the compiled progra
 | [Geeksforgeeks](http://code.geeksforgeeks.org/) | 1 | C++14 | 1.58 | ✔️ | GCC, full screen editor | ✔️ |
 | [Codepad](http://codepad.org/) | 1 | C++03 | 1.34 | ✔️ | GCC | ✔️ |
 | [TIO - Try It Online](https://tio.run/#cpp-gcc) | 1 | C++14 |  | ✔️ | Easy sharing, split source in header, source and footer | ✔️ |
-| [LoopPerfect C++ Fiddle](http://fiddle.jyt.io/) |  | | | | interactive C++ interpreter/terminal, but currently broken |  |
 
 ## The Compilers 
 
@@ -265,8 +264,3 @@ An online IDE with multiple files. The whole web application seems to be sluggis
 
 [Codepad](http://codepad.org/) can be unintuitive - pasting new code at the URL of previously pasted code will return to the original code. The code will be compiled and executed as-is without any possibility to further parametrize it.
 
-### [LoopPerfect C++ Fiddle](http://fiddle.jyt.io/)
-
-![](https://img.shields.io/badge/status-broken-lightgrey.svg)
-
-[C++ Fiddle](http://fiddle.jyt.io/) claims to be an interactive C++ interpreter/terminal but seems to be broken, or the interface is so non-obvious that is should be considered broken.
