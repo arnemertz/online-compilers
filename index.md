@@ -14,10 +14,10 @@ Besides mere compilation, most online compilers also execute the compiled progra
 
 | Name | Number Compilers | C++ Version | Boost Version | Execution | Distinguishing Features | Other Languages |
 |------|:----------------:|:-----------:|:-------------:|:---------:|-------------------------|:---------------:|
+| [Compiler Explorer (Godbolt)](http://godbolt.org) | 60+ | C++17 | 1.64 | ✔️ | compile to assembly and execute as you type, on multiple compilers | ✔️ |
 | [Codiva.io](https://www.codiva.io/) | 1 | C++17 | 1.65 | ✔️ | Clang, user input, multiple files, continuous compilation every few keystrokes, sharing and embeding in blogs | ✔️ |
 | [paiza.IO](https://paiza.IO/) | 1 | C++14 |  | ✔️ | multiple files, collaborative live editing, full screen editor, Internet connection, GitHub(gist) integration | ✔️ |
 | [Wandbox](http://melpon.org/wandbox) | 35 | C++17 | 1.64 | ✔️ | multiple files | ✔️ |
-| [Compiler Explorer (Godbolt)](http://godbolt.org) | 60+ | C++17 | 1.64 |  | compile to assembly as you type, on multiple compilers | ✔️ |
 | [Coliru](http://coliru.stacked-crooked.com) | 2 | C++17 | 1.63 (header only) | ✔️ | GCC & Clang, freely editable shell command line |  |
 | [Quick-Bench](http://quick-bench.com/) |  1 | C++17 | | only benchmarks | benchmarks functions against each other | |
 | [Cppinsights](https://cppinsights.io) | 1 | C++17 | |  | compile to a more verbose code that tells what the compiler does under the hood | |
@@ -98,17 +98,24 @@ The snapshot versions of GCC and Clang that are provided make it possible to pla
 ![ARM CL 2017 RTW](https://img.shields.io/badge/ARM%20CL-2017%20RTW-008080.svg)  
 ![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)
 ![](https://img.shields.io/badge/assembly-yes-brightgreen.svg)
-![](https://img.shields.io/badge/execution-no-red.svg)  
-![](https://img.shields.io/badge/Boost-1.64-96004a.svg)  
+![](https://img.shields.io/badge/execution-immediately-brightgreen.svg)  
+![](https://img.shields.io/badge/runtime%20parameters-no-red.svg)  
+![](https://img.shields.io/badge/stdin-no-red.svg)  
+![](https://img.shields.io/badge/Abseil-trunk-96004a.svg)
+![](https://img.shields.io/badge/Boost-1.70-96004a.svg)
+![](https://img.shields.io/badge/Catch2-trunk-96004a.svg)
+![](https://img.shields.io/badge/range%2Dv3-trunk-96004a.svg)
+![](https://img.shields.io/badge/more-libraries-96004a.svg)  
 ![](https://img.shields.io/badge/interactive-compilation-ff69b4.svg)
 ![](https://img.shields.io/badge/diff%20assembler-yes-ff69b4.svg)
 ![](https://img.shields.io/badge/include-github-ff69b4.svg)
 ![](https://img.shields.io/badge/sharing-link%20|%20embed-ff69b4.svg)
-![](https://img.shields.io/badge/AST%20🌳-clang-ff69b4.svg)
+![](https://img.shields.io/badge/AST%20🌳-clang-ff69b4.svg)  
 
-[Compiler Explorer](http://godbolt.org) is a compile-as-you-type IDE with a unique feature as it presents the assembly produced by the compilers. The resulting assembler can be color-mapped to the originating C++ code. It supports the use of different sources and multiple compilers at the same time, so we can compare the assembly produced by different code and/or different compilers, optimization flags, etc. 
-Compiler explorer can be found on [GitHub](https://github.com/mattgodbolt/compiler-explorer) and can be used locally.
-Currently, the compiled code can **not** be executed, but there is an [open GitHub issue](https://github.com/mattgodbolt/compiler-explorer/issues/429) for this feature.
+
+[Compiler Explorer](http://godbolt.org) is a compile-as-you-type IDE with a unique feature as it presents the assembly produced by the compilers. The resulting assembler can be color-mapped to the originating C++ code. It supports the use of different sources and multiple compilers at the same time, so we can compare the assembly produced by different code and/or different compilers, optimization flags, etc.
+Compiler Explorer can be found on [GitHub](https://github.com/mattgodbolt/compiler-explorer) and can be used locally.
+Execution is currently restricted to compilers running on x86_64 Linux, i.e. MSVC and ARM compilers do not support execution.
 
 
 ### [Coliru](http://coliru.stacked-crooked.com)
