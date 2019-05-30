@@ -99,7 +99,7 @@ The snapshot versions of GCC and Clang that are provided make it possible to pla
 ![Compiler flags: free text](https://img.shields.io/badge/flags-free%20text-brightgreen.svg)
 ![](https://img.shields.io/badge/assembly-yes-brightgreen.svg)
 ![](https://img.shields.io/badge/execution-immediately-brightgreen.svg)  
-![](https://img.shields.io/badge/runtime%20parameters-no-red.svg)  
+![](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
 ![](https://img.shields.io/badge/stdin-no-red.svg)  
 ![](https://img.shields.io/badge/Abseil-trunk-96004a.svg)
 ![](https://img.shields.io/badge/Boost-1.70-96004a.svg)
