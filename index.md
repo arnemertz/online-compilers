@@ -29,6 +29,8 @@ Besides mere compilation, most online compilers also execute the compiled progra
 | [Geeksforgeeks](http://code.geeksforgeeks.org/) | 1 | C++14 | 1.58 | ✔️ | GCC, full screen editor | ✔️ |
 | [Codepad](http://codepad.org/) | 1 | C++03 | 1.34 | ✔️ | GCC | ✔️ |
 | [TIO - Try It Online](https://tio.run/#cpp-gcc) | 1 | C++14 |  | ✔️ | Easy sharing, split source in header, source and footer | ✔️ |
+| [Codechef](https://www.codechef.com/ide) | 1 | C++14 | 1.62 | ✔️ | Potential support for multiple tabs ("online IDE") and file upload | ✔️ |
+| [JDoodle](https://www.jdoodle.com/) | 3 | C++14 |  | ✔️ | collaborate with friends | ✔️ |
 
 ## The Compilers 
 
@@ -264,3 +266,28 @@ An online IDE with multiple files. The whole web application seems to be sluggis
 
 [Codepad](http://codepad.org/) can be unintuitive - pasting new code at the URL of previously pasted code will return to the original code. The code will be compiled and executed as-is without any possibility to further parametrize it.
 
+### [Codechef](http://codechef.com/ide)
+
+![](https://img.shields.io/badge/C%2B%2B-14-blue.svg)
+![](https://img.shields.io/badge/GCC-6.3.0-008080.svg)  
+![](https://img.shields.io/badge/flags-predefined-red.svg)
+![](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
+![](https://img.shields.io/badge/stdin-yes-brightgreen.svg)  
+![](https://img.shields.io/badge/Boost-1.62-96004a.svg)  
+![](https://img.shields.io/badge/download-link-ff69b4.svg)
+
+[Codechef](http://codechef.com/ide) seems to aim at the users of a "non-commercial competitive programming community". When I tested the compiler, the compilation seemed to be rather slow. Distinguishing feature: the tool allows do download the editor's content to a file.
+Opening a new IDE tab resulted in an infinite loading animation, the button to upload a file into the editor did not work at all.
+
+### [JDoodle](https://www.jdoodle.com/)
+
+![](https://img.shields.io/badge/C%2B%2B-14-blue.svg)
+![GCC 5.3.0 .. 8.2.0](https://img.shields.io/badge/GCC-5.3.0--8.1.0-008080.svg)  
+![](https://img.shields.io/badge/flags-predefined-red.svg)
+![](https://img.shields.io/badge/runtime%20parameters-yes-brightgreen.svg)
+![](https://img.shields.io/badge/stdin-yes-brightgreen.svg)  
+![](https://img.shields.io/badge/full%20screen-editor-ff69b4.svg)
+![](https://img.shields.io/badge/screen-sharing-ff69b4.svg)
+
+[JDoodle](https://www.jdoodle.com/) besides having three GCC versions to choose from, the most obvious feature of JDoodle is the collaboration support via TogetherJS which allows you to invite a friend to view and work on the same screen.
+Apart from that and the option to provide runtime input for your program, JDoodle proides the possibility to save your code snippets (after creating an account for free).
