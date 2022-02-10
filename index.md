@@ -290,4 +290,4 @@ Opening a new IDE tab resulted in an infinite loading animation, the button to u
 ![](https://img.shields.io/badge/screen-sharing-ff69b4.svg)
 
 [JDoodle](https://www.jdoodle.com/) besides having three GCC versions to choose from, the most obvious feature of JDoodle is the collaboration support via TogetherJS which allows you to invite a friend to view and work on the same screen.
-Apart from that and the option to provide runtime input for your program, JDoodle proides the possibility to save your code snippets (after creating an account for free).
+Apart from that and the option to provide runtime input for your program, JDoodle provides the possibility to save your code snippets (after creating an account for free).
