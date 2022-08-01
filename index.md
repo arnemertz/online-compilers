@@ -17,7 +17,6 @@ Besides mere compilation, most online compilers also execute the compiled progra
 | [Compiler Explorer (Godbolt)](http://godbolt.org) | 60+ | C++17 | 1.64 | ✔️ | compile to assembly and execute as you type, on multiple compilers | ✔️ |
 | [Codiva.io](https://www.codiva.io/) | 1 | C++17 | 1.65 | ✔️ | Clang, user input, multiple files, continuous compilation every few keystrokes, sharing and embeding in blogs | ✔️ |
 | [paiza.IO](https://paiza.IO/) | 1 | C++14 |  | ✔️ | multiple files, collaborative live editing, full screen editor, Internet connection, GitHub(gist) integration | ✔️ |
-| [Wandbox](http://melpon.org/wandbox) | 35 | C++17 | 1.64 | ✔️ | multiple files | ✔️ |
 | [Coliru](http://coliru.stacked-crooked.com) | 2 | C++17 | 1.63 (header only) | ✔️ | GCC & Clang, freely editable shell command line |  |
 | [Quick-Bench](http://quick-bench.com/) |  1 | C++17 | | only benchmarks | benchmarks functions against each other | |
 | [Cppinsights](https://cppinsights.io) | 1 | C++17 | |  | compile to a more verbose code that tells what the compiler does under the hood | |
