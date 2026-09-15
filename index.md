@@ -16,6 +16,7 @@ Besides mere compilation, most online compilers also execute the compiled progra
 |------|:----------------:|:-----------:|:-------------:|:---------:|-------------------------|:---------------:|
 | [Compiler Explorer (Godbolt)](http://godbolt.org) | 60+ | C++17 | 1.64 | ✔️ | compile to assembly and execute as you type, on multiple compilers | ✔️ |
 | [Codiva.io](https://www.codiva.io/) | 1 | C++17 | 1.65 | ✔️ | Clang, user input, multiple files, continuous compilation every few keystrokes, sharing and embeding in blogs | ✔️ |
+| [Online C Compiler](https://onlineccompiler.com/) | 1 | C17 / C23 / C++ | | ✔ | In-browser memory visualizer, interactive stdin, GCC 13.2 | ✔ |
 | [paiza.IO](https://paiza.IO/) | 1 | C++14 |  | ✔️ | multiple files, collaborative live editing, full screen editor, Internet connection, GitHub(gist) integration | ✔️ |
 | [Wandbox](http://melpon.org/wandbox) | 35 | C++17 | 1.64 | ✔️ | multiple files | ✔️ |
 | [Coliru](http://coliru.stacked-crooked.com) | 2 | C++17 | 1.63 (header only) | ✔️ | GCC & Clang, freely editable shell command line |  |
@@ -46,6 +47,16 @@ Besides mere compilation, most online compilers also execute the compiled progra
 ![](https://img.shields.io/badge/sharing-link%20|%20embed-ff69b4.svg)
 
 [Codiva.io](https://www.codiva.io) is an online compiler and IDE that allows to edit, compile, execute and share multiple C++ files. As a distinguishing feature, it compiles the code every few keystrokes, and highlights the error lines in the editor itself saving time. It even works on mobile.
+
+### [Online C Compiler](https://onlineccompiler.com/)
+![C17 / C23](https://img.shields.io/badge/C-17%20%2F%2023-blue.svg)
+![GCC 13.2.0](https://img.shields.io/badge/GCC-13.2.0-008080.svg)  
+![Compiler flags: predefined](https://img.shields.io/badge/flags-predefined-brightgreen.svg)
+![Runtime parameters: no](https://img.shields.io/badge/runtime%20parameters-no-red.svg)
+![Stdin: yes](https://img.shields.io/badge/stdin-yes-brightgreen.svg)  
+![](https://img.shields.io/badge/sharing-link-ff69b4.svg)
+
+[Online C Compiler](https://onlineccompiler.com/) is a lightweight, zero-setup in-browser C and C++ execution engine powered by GCC 13.2. It features real-time compilation, interactive standard input (stdin), dynamic memory allocation tracking, pointer arithmetic visualization, and localized editions ([Spanish](https://onlineccompiler.com/es/), [Portuguese](https://onlineccompiler.com/pt/), [German](https://onlineccompiler.com/de/), [French](https://onlineccompiler.com/fr/)).
 
 ### [paiza.IO](https://paiza.IO)
 ![C++14](https://img.shields.io/badge/C++-14-blue.svg)
